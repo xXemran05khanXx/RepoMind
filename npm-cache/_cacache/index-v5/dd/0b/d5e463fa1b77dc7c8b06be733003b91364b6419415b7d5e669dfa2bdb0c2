@@ -1,0 +1,2 @@
+
+019947ae8347965d3280dc1e114f1155a31b8501	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@chakra-ui/css-reset/-/css-reset-2.1.2.tgz","integrity":null,"time":1743504711239,"size":"0","metadata":{"time":1743504711238,"url":"http://registry.npmjs.org/@chakra-ui/css-reset/-/css-reset-2.1.2.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 10:51:49 GMT","location":"https://registry.npmjs.org/@chakra-ui/css-reset/-/css-reset-2.1.2.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

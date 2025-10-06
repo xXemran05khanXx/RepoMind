@@ -1,0 +1,2 @@
+
+9004886ded3a0ed45a03d54d9832b5d3358c32b1	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/common-tags/-/common-tags-1.8.0.tgz","integrity":null,"time":1743498221083,"size":"0","metadata":{"time":1743498221083,"url":"http://registry.npmjs.org/common-tags/-/common-tags-1.8.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:40 GMT","location":"https://registry.npmjs.org/common-tags/-/common-tags-1.8.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

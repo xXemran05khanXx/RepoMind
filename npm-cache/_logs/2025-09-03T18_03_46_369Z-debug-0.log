@@ -1,0 +1,40 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v23.9.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\SEM  VII\MAJOR\RepoMind\MiindAI\.npmrc
+5 silly config load:file:C:\Users\Prabhakar Y Dickonda\.npmrc
+6 silly config load:file:C:\Users\Prabhakar Y Dickonda\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:C:\Users\Prabhakar Y Dickonda\AppData\Local\npm-cache\_logs\2025-09-03T18_03_46_369Z-
+10 verbose logfile C:\Users\Prabhakar Y Dickonda\AppData\Local\npm-cache\_logs\2025-09-03T18_03_46_369Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 verbose stack Error: Could not read package.json: Error: ENOENT: no such file or directory, open 'D:\SEM  VII\MAJOR\RepoMind\MiindAI\package.json'
+16 verbose stack     at async open (node:internal/fs/promises:634:25)
+16 verbose stack     at async readFile (node:internal/fs/promises:1238:14)
+16 verbose stack     at async read (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\read-package.js:9:18)
+16 verbose stack     at async PackageJson.load (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\index.js:131:31)
+16 verbose stack     at async PackageJson.normalize (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\package-json\lib\index.js:117:5)
+16 verbose stack     at async runScript (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script.js:11:28)
+16 verbose stack     at async Install.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\install.js:163:9)
+16 verbose stack     at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:207:9)
+16 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:74:5)
+17 error code ENOENT
+18 error syscall open
+19 error path D:\SEM  VII\MAJOR\RepoMind\MiindAI\package.json
+20 error errno -4058
+21 error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'D:\SEM  VII\MAJOR\RepoMind\MiindAI\package.json'
+22 error enoent This is related to npm not being able to find a file.
+22 error enoent
+23 verbose cwd D:\SEM  VII\MAJOR\RepoMind\MiindAI
+24 verbose os Windows_NT 10.0.26100
+25 verbose node v23.9.0
+26 verbose npm  v10.9.2
+27 verbose exit -4058
+28 verbose code -4058
+29 error A complete log of this run can be found in: C:\Users\Prabhakar Y Dickonda\AppData\Local\npm-cache\_logs\2025-09-03T18_03_46_369Z-debug-0.log

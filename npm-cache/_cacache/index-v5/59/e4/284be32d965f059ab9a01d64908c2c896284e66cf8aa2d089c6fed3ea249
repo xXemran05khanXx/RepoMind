@@ -1,0 +1,2 @@
+
+2a00f942bef315d36e1f77e99725c4842551cdf0	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/jest-cli/-/jest-cli-29.7.0.tgz","integrity":null,"time":1743397083289,"size":"0","metadata":{"time":1743397083289,"url":"http://registry.npmjs.org/jest-cli/-/jest-cli-29.7.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 31 Mar 2025 04:58:03 GMT","location":"https://registry.npmjs.org/jest-cli/-/jest-cli-29.7.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

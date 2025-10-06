@@ -1,0 +1,2 @@
+
+aa682e922c1aa2114e2db60daf55ca0b8ecac5b4	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/whatwg-mimetype","integrity":null,"time":1743498180467,"size":"0","metadata":{"time":1743498180467,"url":"http://registry.npmjs.org/whatwg-mimetype","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:00 GMT","location":"https://registry.npmjs.org/whatwg-mimetype","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

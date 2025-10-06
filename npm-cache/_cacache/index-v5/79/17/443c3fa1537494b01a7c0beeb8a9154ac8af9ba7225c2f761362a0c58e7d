@@ -1,0 +1,2 @@
+
+889680c51c851fa4581f807b88aadf3aa961cf6d	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/sass-loader","integrity":null,"time":1743498167826,"size":"0","metadata":{"time":1743498167825,"url":"http://registry.npmjs.org/sass-loader","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:47 GMT","location":"https://registry.npmjs.org/sass-loader","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

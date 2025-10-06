@@ -1,0 +1,2 @@
+
+de0431df908b00120475afdba9bb7e0a2c4d7179	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@hapi%2fhoek","integrity":null,"time":1743498085391,"size":"0","metadata":{"time":1743498085391,"url":"http://registry.npmjs.org/@hapi%2fhoek","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:25 GMT","location":"https://registry.npmjs.org/@hapi%2Fhoek","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

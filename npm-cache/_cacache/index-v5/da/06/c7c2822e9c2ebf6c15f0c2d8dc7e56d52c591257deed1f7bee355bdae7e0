@@ -1,0 +1,2 @@
+
+26b68287b6d0b880122c72f5f4f53196f5876130	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/d3-color/-/d3-color-3.1.0.tgz","integrity":null,"time":1743351861073,"size":"0","metadata":{"time":1743351861073,"url":"http://registry.npmjs.org/d3-color/-/d3-color-3.1.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 30 Mar 2025 16:24:21 GMT","location":"https://registry.npmjs.org/d3-color/-/d3-color-3.1.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

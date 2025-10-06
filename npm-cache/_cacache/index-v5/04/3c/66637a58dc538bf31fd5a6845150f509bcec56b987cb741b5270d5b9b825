@@ -1,0 +1,2 @@
+
+efd65033e167f802a06740d2f46385e3da5514dd	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/levenary","integrity":null,"time":1743498143347,"size":"0","metadata":{"time":1743498143347,"url":"http://registry.npmjs.org/levenary","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:23 GMT","location":"https://registry.npmjs.org/levenary","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

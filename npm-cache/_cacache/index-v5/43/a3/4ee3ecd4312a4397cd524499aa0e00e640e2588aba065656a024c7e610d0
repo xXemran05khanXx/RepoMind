@@ -1,0 +1,2 @@
+
+af60525dc503d03fe5f43868196592adb8d115ac	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@types/d3-shape/-/d3-shape-3.1.7.tgz","integrity":null,"time":1743351861621,"size":"0","metadata":{"time":1743351861621,"url":"http://registry.npmjs.org/@types/d3-shape/-/d3-shape-3.1.7.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 30 Mar 2025 16:24:21 GMT","location":"https://registry.npmjs.org/@types/d3-shape/-/d3-shape-3.1.7.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

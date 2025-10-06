@@ -1,0 +1,2 @@
+
+ad85bdd2c7749ad0ab1170826da634432bd4b3cc	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/stylis/-/stylis-4.2.0.tgz","integrity":null,"time":1743504707034,"size":"0","metadata":{"time":1743504707034,"url":"http://registry.npmjs.org/stylis/-/stylis-4.2.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 10:51:46 GMT","location":"https://registry.npmjs.org/stylis/-/stylis-4.2.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

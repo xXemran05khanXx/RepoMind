@@ -1,0 +1,2 @@
+
+30fd8d6c03766dd3bf3c85e60bbfa9534824d03c	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/socket.io-adapter","integrity":null,"time":1743506726993,"size":"0","metadata":{"time":1743506726992,"url":"http://registry.npmjs.org/socket.io-adapter","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 11:25:26 GMT","location":"https://registry.npmjs.org/socket.io-adapter","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

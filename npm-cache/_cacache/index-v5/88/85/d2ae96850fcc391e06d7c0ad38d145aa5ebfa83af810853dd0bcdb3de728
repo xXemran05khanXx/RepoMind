@@ -1,0 +1,2 @@
+
+016bc955b7a7b4e04b6f93bf83e19e89e5dfa97f	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/selfsigned/-/selfsigned-1.10.7.tgz","integrity":null,"time":1743498197470,"size":"0","metadata":{"time":1743498197470,"url":"http://registry.npmjs.org/selfsigned/-/selfsigned-1.10.7.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:16 GMT","location":"https://registry.npmjs.org/selfsigned/-/selfsigned-1.10.7.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

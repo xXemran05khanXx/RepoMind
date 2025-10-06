@@ -1,0 +1,2 @@
+
+704c413dd4a3da09bc2448c17d5dad5a26b1933f	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/socks","integrity":null,"time":1743506728746,"size":"0","metadata":{"time":1743506728746,"url":"http://registry.npmjs.org/socks","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 11:25:28 GMT","location":"https://registry.npmjs.org/socks","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

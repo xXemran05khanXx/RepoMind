@@ -1,0 +1,2 @@
+
+b750656573033159c1f6b157850e1fd650569f9f	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/camel-case","integrity":null,"time":1743498105935,"size":"0","metadata":{"time":1743498105935,"url":"http://registry.npmjs.org/camel-case","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:45 GMT","location":"https://registry.npmjs.org/camel-case","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

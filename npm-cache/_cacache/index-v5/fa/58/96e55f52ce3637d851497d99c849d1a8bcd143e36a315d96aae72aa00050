@@ -1,0 +1,2 @@
+
+70c16d6c7d36b4e2049926ca7dbfcf14694e706e	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/mamacro/-/mamacro-0.0.3.tgz","integrity":null,"time":1743498207713,"size":"0","metadata":{"time":1743498207713,"url":"http://registry.npmjs.org/mamacro/-/mamacro-0.0.3.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:27 GMT","location":"https://registry.npmjs.org/mamacro/-/mamacro-0.0.3.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

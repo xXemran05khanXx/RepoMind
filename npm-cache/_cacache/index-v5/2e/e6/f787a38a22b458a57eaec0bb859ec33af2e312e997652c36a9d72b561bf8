@@ -1,0 +1,2 @@
+
+0142fb6a2526ec7da487013b4b9aab57679639a3	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/dom-converter","integrity":null,"time":1743498115458,"size":"0","metadata":{"time":1743498115458,"url":"http://registry.npmjs.org/dom-converter","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:55 GMT","location":"https://registry.npmjs.org/dom-converter","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

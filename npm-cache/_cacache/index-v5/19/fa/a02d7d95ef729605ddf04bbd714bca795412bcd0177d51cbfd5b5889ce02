@@ -1,0 +1,2 @@
+
+9f18cb3f43c1805a67265676f78750e2e03fb8a0	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/es6-iterator","integrity":null,"time":1743498119004,"size":"0","metadata":{"time":1743498119004,"url":"http://registry.npmjs.org/es6-iterator","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:58 GMT","location":"https://registry.npmjs.org/es6-iterator","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

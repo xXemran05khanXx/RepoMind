@@ -1,0 +1,2 @@
+
+728d3993525aa27364a9eb471901602bc8b635f5	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/pnpm","integrity":null,"time":1756538563094,"size":"0","metadata":{"time":1756538563094,"url":"http://registry.npmjs.org/pnpm","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 30 Aug 2025 07:22:43 GMT","location":"https://registry.npmjs.org/pnpm","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

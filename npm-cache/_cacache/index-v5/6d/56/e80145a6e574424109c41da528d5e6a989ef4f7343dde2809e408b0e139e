@@ -1,0 +1,2 @@
+
+54a858d11331ed2ac07486df56970a53b0102a36	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/resolve-pkg-maps","integrity":null,"time":1741446176569,"size":"0","metadata":{"time":1741446176569,"url":"http://registry.npmjs.org/resolve-pkg-maps","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 08 Mar 2025 15:02:57 GMT","location":"https://registry.npmjs.org/resolve-pkg-maps","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

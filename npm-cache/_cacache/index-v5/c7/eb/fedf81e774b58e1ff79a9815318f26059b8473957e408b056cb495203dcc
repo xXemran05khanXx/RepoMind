@@ -1,0 +1,2 @@
+
+4fc5bfffb259fe9f4288b4b205c3a430f02822f2	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@aws-sdk%2fcredential-providers","integrity":null,"time":1743506728212,"size":"0","metadata":{"time":1743506728212,"url":"http://registry.npmjs.org/@aws-sdk%2fcredential-providers","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 11:25:28 GMT","location":"https://registry.npmjs.org/@aws-sdk%2Fcredential-providers","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

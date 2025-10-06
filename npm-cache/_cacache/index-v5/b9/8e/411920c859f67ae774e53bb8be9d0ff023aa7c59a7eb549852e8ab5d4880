@@ -1,0 +1,2 @@
+
+2718daa62880970ebe0b56398b3a9c92c0df248d	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/boolbase","integrity":null,"time":1743498104097,"size":"0","metadata":{"time":1743498104097,"url":"http://registry.npmjs.org/boolbase","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:43 GMT","location":"https://registry.npmjs.org/boolbase","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

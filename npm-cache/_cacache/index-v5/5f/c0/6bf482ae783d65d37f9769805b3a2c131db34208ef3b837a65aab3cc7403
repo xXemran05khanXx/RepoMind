@@ -1,0 +1,2 @@
+
+23cb3865b0c4aace9e4b0a4d65440d2285ac9589	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/postcss-colormin","integrity":null,"time":1743498154155,"size":"0","metadata":{"time":1743498154155,"url":"http://registry.npmjs.org/postcss-colormin","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:33 GMT","location":"https://registry.npmjs.org/postcss-colormin","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

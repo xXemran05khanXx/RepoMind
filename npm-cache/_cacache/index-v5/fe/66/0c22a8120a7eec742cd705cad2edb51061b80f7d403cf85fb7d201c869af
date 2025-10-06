@@ -1,0 +1,2 @@
+
+7ae815e3046c6ef724e85f6b8c3df398f6ba95d3	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/gcp-metadata","integrity":null,"time":1743506728428,"size":"0","metadata":{"time":1743506728428,"url":"http://registry.npmjs.org/gcp-metadata","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 11:25:28 GMT","location":"https://registry.npmjs.org/gcp-metadata","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

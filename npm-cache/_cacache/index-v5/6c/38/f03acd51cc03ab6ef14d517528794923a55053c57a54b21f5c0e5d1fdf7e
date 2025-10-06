@@ -1,0 +1,2 @@
+
+3fd9f53678a9c534c328f7c9b0833ee57106c0ba	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@rtsao%2fscc","integrity":null,"time":1741446169005,"size":"0","metadata":{"time":1741446169005,"url":"http://registry.npmjs.org/@rtsao%2fscc","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 08 Mar 2025 15:02:49 GMT","location":"https://registry.npmjs.org/@rtsao%2Fscc","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

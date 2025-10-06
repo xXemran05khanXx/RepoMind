@@ -1,0 +1,2 @@
+
+ef35ac654c947cb30d6f688b078fd95f5bf30042	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/getpass/-/getpass-0.1.7.tgz","integrity":null,"time":1743498214464,"size":"0","metadata":{"time":1743498214464,"url":"http://registry.npmjs.org/getpass/-/getpass-0.1.7.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:33 GMT","location":"https://registry.npmjs.org/getpass/-/getpass-0.1.7.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

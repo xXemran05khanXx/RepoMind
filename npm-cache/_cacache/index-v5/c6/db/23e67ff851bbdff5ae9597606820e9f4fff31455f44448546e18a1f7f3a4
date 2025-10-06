@@ -1,0 +1,2 @@
+
+fcecf38937c8646842ed7526776a234f1d7fa31b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/throat/-/throat-4.1.0.tgz","integrity":null,"time":1743498195346,"size":"0","metadata":{"time":1743498195346,"url":"http://registry.npmjs.org/throat/-/throat-4.1.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:14 GMT","location":"https://registry.npmjs.org/throat/-/throat-4.1.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+497c992e810b72d21afd087d19f6a94411eb96e9	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/react-scripts","integrity":null,"time":1743498163587,"size":"0","metadata":{"time":1743498163587,"url":"http://registry.npmjs.org/react-scripts","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:43 GMT","location":"https://registry.npmjs.org/react-scripts","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

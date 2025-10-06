@@ -1,0 +1,2 @@
+
+6ef551ad5a27aac6020672de4f70034ec37aa33c	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/cloudinary","integrity":null,"time":1743506724520,"size":"0","metadata":{"time":1743506724520,"url":"http://registry.npmjs.org/cloudinary","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 11:25:24 GMT","location":"https://registry.npmjs.org/cloudinary","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

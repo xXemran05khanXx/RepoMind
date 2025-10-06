@@ -1,0 +1,2 @@
+
+f22dcb24ca169986880abe255e9547625153fd98	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/querystring-es3/-/querystring-es3-0.2.1.tgz","integrity":null,"time":1743498199957,"size":"0","metadata":{"time":1743498199957,"url":"http://registry.npmjs.org/querystring-es3/-/querystring-es3-0.2.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:19 GMT","location":"https://registry.npmjs.org/querystring-es3/-/querystring-es3-0.2.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+0b948f4a3da6ad56254c185c1611284c13a17b5b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@chakra-ui/popper/-/popper-3.0.14.tgz","integrity":null,"time":1743504709603,"size":"0","metadata":{"time":1743504709602,"url":"http://registry.npmjs.org/@chakra-ui/popper/-/popper-3.0.14.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 10:51:49 GMT","location":"https://registry.npmjs.org/@chakra-ui/popper/-/popper-3.0.14.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+d7800f0fea6729de190d826e0482abf3dba0b314	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@firebase/database/-/database-0.6.10.tgz","integrity":null,"time":1743498231399,"size":"0","metadata":{"time":1743498231399,"url":"http://registry.npmjs.org/@firebase/database/-/database-0.6.10.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:50 GMT","location":"https://registry.npmjs.org/@firebase/database/-/database-0.6.10.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+fe1f0a00dc3e20114e734e63ef116073c19bda83	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/saxes/-/saxes-3.1.11.tgz","integrity":null,"time":1743498197489,"size":"0","metadata":{"time":1743498197489,"url":"http://registry.npmjs.org/saxes/-/saxes-3.1.11.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:16 GMT","location":"https://registry.npmjs.org/saxes/-/saxes-3.1.11.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

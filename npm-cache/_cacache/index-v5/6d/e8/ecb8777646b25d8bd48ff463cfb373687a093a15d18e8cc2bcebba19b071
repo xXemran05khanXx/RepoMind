@@ -1,0 +1,2 @@
+
+5a341f266e101a7b0b2d882869c55ddc2a372089	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/gzip-size","integrity":null,"time":1743498129095,"size":"0","metadata":{"time":1743498129094,"url":"http://registry.npmjs.org/gzip-size","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:08 GMT","location":"https://registry.npmjs.org/gzip-size","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+2e6b1d61edcc2a58a6ce0cab279ba27218727761	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/call-me-maybe","integrity":null,"time":1743498105727,"size":"0","metadata":{"time":1743498105727,"url":"http://registry.npmjs.org/call-me-maybe","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:45 GMT","location":"https://registry.npmjs.org/call-me-maybe","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

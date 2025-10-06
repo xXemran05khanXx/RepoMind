@@ -1,0 +1,2 @@
+
+28bb38d3324a268c4a5005a35b3be2a94318c175	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/fragment-cache/-/fragment-cache-0.2.1.tgz","integrity":null,"time":1743498214943,"size":"0","metadata":{"time":1743498214943,"url":"http://registry.npmjs.org/fragment-cache/-/fragment-cache-0.2.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:34 GMT","location":"https://registry.npmjs.org/fragment-cache/-/fragment-cache-0.2.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+985ac2f08c38f8f1e11576a75c4ace3258feba58	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/loader-fs-cache/-/loader-fs-cache-1.0.3.tgz","integrity":null,"time":1743498208161,"size":"0","metadata":{"time":1743498208161,"url":"http://registry.npmjs.org/loader-fs-cache/-/loader-fs-cache-1.0.3.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:27 GMT","location":"https://registry.npmjs.org/loader-fs-cache/-/loader-fs-cache-1.0.3.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

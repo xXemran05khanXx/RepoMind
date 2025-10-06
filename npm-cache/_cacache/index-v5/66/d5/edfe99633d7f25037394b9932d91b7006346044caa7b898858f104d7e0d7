@@ -1,0 +1,2 @@
+
+20fc75eeaf61e87c0e52c7dc815c80711f9db4cf	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz","integrity":null,"time":1743145753043,"size":"0","metadata":{"time":1743145753043,"url":"http://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 07:09:11 GMT","location":"https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

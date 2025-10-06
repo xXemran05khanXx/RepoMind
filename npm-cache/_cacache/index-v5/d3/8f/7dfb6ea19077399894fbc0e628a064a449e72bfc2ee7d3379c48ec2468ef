@@ -1,0 +1,2 @@
+
+2e790450b8ab761f7c39b8a1e7a621dc5bc7004b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/svg-parser","integrity":null,"time":1743498172913,"size":"0","metadata":{"time":1743498172913,"url":"http://registry.npmjs.org/svg-parser","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:52 GMT","location":"https://registry.npmjs.org/svg-parser","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

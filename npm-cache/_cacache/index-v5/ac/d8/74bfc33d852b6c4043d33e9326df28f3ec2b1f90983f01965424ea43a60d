@@ -1,0 +1,2 @@
+
+761c0067e264a823423b96be6777c3804c8d9ebd	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/camelcase/-/camelcase-5.3.1.tgz","integrity":null,"time":1743145748924,"size":"0","metadata":{"time":1743145748924,"url":"http://registry.npmjs.org/camelcase/-/camelcase-5.3.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 07:09:07 GMT","location":"https://registry.npmjs.org/camelcase/-/camelcase-5.3.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+4e8c320cde62c625b86763a572ac95001cd1846b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/path-parse/-/path-parse-1.0.6.tgz","integrity":null,"time":1743498204213,"size":"0","metadata":{"time":1743498204213,"url":"http://registry.npmjs.org/path-parse/-/path-parse-1.0.6.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:23 GMT","location":"https://registry.npmjs.org/path-parse/-/path-parse-1.0.6.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

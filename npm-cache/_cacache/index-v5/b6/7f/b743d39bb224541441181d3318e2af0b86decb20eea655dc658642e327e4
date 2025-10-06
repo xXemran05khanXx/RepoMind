@@ -1,0 +1,2 @@
+
+49c234019b60b5257c322763ace8d85a3dcedbd2	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/yargs-parser/-/yargs-parser-11.1.1.tgz","integrity":null,"time":1743498236264,"size":"0","metadata":{"time":1743498236264,"url":"http://registry.npmjs.org/yargs-parser/-/yargs-parser-11.1.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:55 GMT","location":"https://registry.npmjs.org/yargs-parser/-/yargs-parser-11.1.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

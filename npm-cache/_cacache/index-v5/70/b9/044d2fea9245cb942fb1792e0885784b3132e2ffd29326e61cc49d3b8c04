@@ -1,0 +1,2 @@
+
+3f5f22ba39f3c59e200c9d0bf4aa3820bed39eca	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/lcid/-/lcid-2.0.0.tgz","integrity":null,"time":1743498208531,"size":"0","metadata":{"time":1743498208531,"url":"http://registry.npmjs.org/lcid/-/lcid-2.0.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:28 GMT","location":"https://registry.npmjs.org/lcid/-/lcid-2.0.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+ffa7cb5c976e8de3de45d2aecfeec280c686dd2c	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/scriptjs/-/scriptjs-2.5.9.tgz","integrity":null,"time":1743498197496,"size":"0","metadata":{"time":1743498197495,"url":"http://registry.npmjs.org/scriptjs/-/scriptjs-2.5.9.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:16 GMT","location":"https://registry.npmjs.org/scriptjs/-/scriptjs-2.5.9.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

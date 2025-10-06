@@ -1,0 +1,2 @@
+
+81d2d19fa66e3bca1283a036d55de27cdfb8b8ed	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@splinetool/runtime/-/runtime-1.9.75.tgz","integrity":null,"time":1741446188254,"size":"0","metadata":{"time":1741446188252,"url":"http://registry.npmjs.org/@splinetool/runtime/-/runtime-1.9.75.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 08 Mar 2025 15:03:08 GMT","location":"https://registry.npmjs.org/@splinetool/runtime/-/runtime-1.9.75.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

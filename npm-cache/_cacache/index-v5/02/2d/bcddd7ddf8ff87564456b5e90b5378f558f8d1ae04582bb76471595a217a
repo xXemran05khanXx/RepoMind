@@ -1,0 +1,2 @@
+
+83f344569d9a557dd000bb178c12e3a266683a98	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/mongodb-connection-string-url","integrity":null,"time":1743506728849,"size":"0","metadata":{"time":1743506728849,"url":"http://registry.npmjs.org/mongodb-connection-string-url","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 11:25:28 GMT","location":"https://registry.npmjs.org/mongodb-connection-string-url","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

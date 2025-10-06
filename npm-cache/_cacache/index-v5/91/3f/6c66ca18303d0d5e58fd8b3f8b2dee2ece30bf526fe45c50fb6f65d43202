@@ -1,0 +1,2 @@
+
+7defb0afb31c2ee9497fe853fd4988a8eaeecc3b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/dns-txt","integrity":null,"time":1743498115314,"size":"0","metadata":{"time":1743498115314,"url":"http://registry.npmjs.org/dns-txt","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:55 GMT","location":"https://registry.npmjs.org/dns-txt","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

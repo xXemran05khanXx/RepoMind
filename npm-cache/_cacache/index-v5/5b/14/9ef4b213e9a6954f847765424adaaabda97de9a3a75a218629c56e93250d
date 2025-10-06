@@ -1,0 +1,2 @@
+
+424ebc3c7496cbaf6b567dcfb6ce2614a856bb63	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/nodemon/-/nodemon-2.0.22.tgz","integrity":null,"time":1743397083141,"size":"0","metadata":{"time":1743397083141,"url":"http://registry.npmjs.org/nodemon/-/nodemon-2.0.22.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 31 Mar 2025 04:58:03 GMT","location":"https://registry.npmjs.org/nodemon/-/nodemon-2.0.22.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

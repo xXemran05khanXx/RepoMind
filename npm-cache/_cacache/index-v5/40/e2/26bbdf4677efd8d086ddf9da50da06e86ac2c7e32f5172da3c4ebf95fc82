@@ -1,0 +1,2 @@
+
+4a29bf173440b82e3d35d8a21c82cce192894482	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/semver-compare","integrity":null,"time":1741446151355,"size":"0","metadata":{"time":1741446151354,"url":"http://registry.npmjs.org/semver-compare","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 08 Mar 2025 15:02:31 GMT","location":"https://registry.npmjs.org/semver-compare","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+b25c882c6bb9bb4c1a7bcec34cfa0d74c68e4635	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/spdy/-/spdy-4.0.2.tgz","integrity":null,"time":1743498196658,"size":"0","metadata":{"time":1743498196658,"url":"http://registry.npmjs.org/spdy/-/spdy-4.0.2.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:16 GMT","location":"https://registry.npmjs.org/spdy/-/spdy-4.0.2.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

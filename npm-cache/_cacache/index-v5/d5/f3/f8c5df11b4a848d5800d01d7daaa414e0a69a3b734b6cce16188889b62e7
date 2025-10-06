@@ -1,0 +1,2 @@
+
+b798ea1dd19ed3d9904d490733872c94c78c0245	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/mongodb/-/mongodb-5.6.0.tgz","integrity":null,"time":1743145743503,"size":"0","metadata":{"time":1743145743503,"url":"http://registry.npmjs.org/mongodb/-/mongodb-5.6.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 07:09:02 GMT","location":"https://registry.npmjs.org/mongodb/-/mongodb-5.6.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

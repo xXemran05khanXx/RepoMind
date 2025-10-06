@@ -1,0 +1,2 @@
+
+e2a39818f875e301bca41a3736e6c902f19efb6f	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/zod/-/zod-3.21.4.tgz","integrity":null,"time":1743145739251,"size":"0","metadata":{"time":1743145739250,"url":"http://registry.npmjs.org/zod/-/zod-3.21.4.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 07:08:57 GMT","location":"https://registry.npmjs.org/zod/-/zod-3.21.4.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

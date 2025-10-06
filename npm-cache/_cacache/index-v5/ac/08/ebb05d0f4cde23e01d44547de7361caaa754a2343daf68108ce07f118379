@@ -1,0 +1,2 @@
+
+41ede6bf77d608af5f7c958dc45661be2407d846	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/snappy","integrity":null,"time":1743506728683,"size":"0","metadata":{"time":1743506728683,"url":"http://registry.npmjs.org/snappy","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 11:25:28 GMT","location":"https://registry.npmjs.org/snappy","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+1a3d123fab02bec7c687803dcdcd1dd2804b9d71	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/has-bigints/-/has-bigints-1.0.2.tgz","integrity":null,"time":1743145745023,"size":"0","metadata":{"time":1743145745023,"url":"http://registry.npmjs.org/has-bigints/-/has-bigints-1.0.2.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 07:09:03 GMT","location":"https://registry.npmjs.org/has-bigints/-/has-bigints-1.0.2.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

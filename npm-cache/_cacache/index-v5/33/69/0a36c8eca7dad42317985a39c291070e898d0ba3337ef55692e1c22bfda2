@@ -1,0 +1,2 @@
+
+7ede6b28a20d8f786c64e2ace3c660bfd5b972a2	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/node-notifier/-/node-notifier-5.4.3.tgz","integrity":null,"time":1743498206263,"size":"0","metadata":{"time":1743498206263,"url":"http://registry.npmjs.org/node-notifier/-/node-notifier-5.4.3.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:26 GMT","location":"https://registry.npmjs.org/node-notifier/-/node-notifier-5.4.3.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

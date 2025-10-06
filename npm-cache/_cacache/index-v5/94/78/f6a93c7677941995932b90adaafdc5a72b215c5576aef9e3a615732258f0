@@ -1,0 +1,2 @@
+
+fb6226e58bf723f26c85a0bd9605b0e777b786c9	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/public-encrypt/-/public-encrypt-4.0.3.tgz","integrity":null,"time":1743498200156,"size":"0","metadata":{"time":1743498200156,"url":"http://registry.npmjs.org/public-encrypt/-/public-encrypt-4.0.3.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:19 GMT","location":"https://registry.npmjs.org/public-encrypt/-/public-encrypt-4.0.3.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

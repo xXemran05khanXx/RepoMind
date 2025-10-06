@@ -1,0 +1,2 @@
+
+245877a8ba75cc87eb5f766240f3c10b05cbe17d	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/asn1.js","integrity":null,"time":1743498099676,"size":"0","metadata":{"time":1743498099676,"url":"http://registry.npmjs.org/asn1.js","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:39 GMT","location":"https://registry.npmjs.org/asn1.js","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

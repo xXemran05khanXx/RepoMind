@@ -1,0 +1,2 @@
+
+eee9ab9b428748e03a2a995c67b45fb38774504b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/babylon/-/babylon-6.18.0.tgz","integrity":null,"time":1743498223624,"size":"0","metadata":{"time":1743498223624,"url":"http://registry.npmjs.org/babylon/-/babylon-6.18.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:42 GMT","location":"https://registry.npmjs.org/babylon/-/babylon-6.18.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

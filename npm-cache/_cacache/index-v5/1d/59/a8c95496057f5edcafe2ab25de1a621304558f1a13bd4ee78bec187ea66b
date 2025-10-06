@@ -1,0 +1,2 @@
+
+7d00eeaa6ee87e1714b4b23c3c26da26e0e7fb37	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/kerberos","integrity":null,"time":1743506728525,"size":"0","metadata":{"time":1743506728525,"url":"http://registry.npmjs.org/kerberos","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 11:25:28 GMT","location":"https://registry.npmjs.org/kerberos","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

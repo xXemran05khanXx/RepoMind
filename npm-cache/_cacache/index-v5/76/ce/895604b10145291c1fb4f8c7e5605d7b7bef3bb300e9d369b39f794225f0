@@ -1,0 +1,2 @@
+
+20c5237d9b44b507a3a9a5bc9a6b16951ce3986b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/ts-api-utils","integrity":null,"time":1741446168945,"size":"0","metadata":{"time":1741446168944,"url":"http://registry.npmjs.org/ts-api-utils","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 08 Mar 2025 15:02:49 GMT","location":"https://registry.npmjs.org/ts-api-utils","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

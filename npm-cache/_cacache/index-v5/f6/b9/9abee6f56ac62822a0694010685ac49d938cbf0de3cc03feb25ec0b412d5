@@ -1,0 +1,2 @@
+
+de50d13775c43a0897da97a1b232785b41704277	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/rollup/-/rollup-4.50.0.tgz","integrity":null,"time":1756923258774,"size":"0","metadata":{"time":1756923258774,"url":"http://registry.npmjs.org/rollup/-/rollup-4.50.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Wed, 03 Sep 2025 18:14:18 GMT","location":"https://registry.npmjs.org/rollup/-/rollup-4.50.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

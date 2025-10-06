@@ -1,0 +1,2 @@
+
+d9a8c3df4593f3bf19cf34af64dc871e8c87c193	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@radix-ui/primitive/-/primitive-1.0.1.tgz","integrity":null,"time":1743145751866,"size":"0","metadata":{"time":1743145751865,"url":"http://registry.npmjs.org/@radix-ui/primitive/-/primitive-1.0.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 07:09:10 GMT","location":"https://registry.npmjs.org/@radix-ui/primitive/-/primitive-1.0.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

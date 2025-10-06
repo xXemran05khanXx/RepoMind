@@ -1,0 +1,2 @@
+
+43e9bd567da3a7311a96a38ef892435283f246c1	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/copy-descriptor/-/copy-descriptor-0.1.1.tgz","integrity":null,"time":1743498220670,"size":"0","metadata":{"time":1743498220670,"url":"http://registry.npmjs.org/copy-descriptor/-/copy-descriptor-0.1.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:40 GMT","location":"https://registry.npmjs.org/copy-descriptor/-/copy-descriptor-0.1.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

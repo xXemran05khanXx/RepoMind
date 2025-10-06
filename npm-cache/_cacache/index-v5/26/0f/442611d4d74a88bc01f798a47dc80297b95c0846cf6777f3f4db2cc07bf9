@@ -1,0 +1,2 @@
+
+963045a7e1f76993161abd012f1f04c6f69d62e1	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@prisma%2fclient","integrity":null,"time":1743352135755,"size":"0","metadata":{"time":1743352135755,"url":"http://registry.npmjs.org/@prisma%2fclient","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 30 Mar 2025 16:28:56 GMT","location":"https://registry.npmjs.org/@prisma%2Fclient","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

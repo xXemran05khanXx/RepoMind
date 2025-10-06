@@ -1,0 +1,2 @@
+
+6323d5100aa066ccb4d3fe733a9d95362310b6af	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/ip-regex/-/ip-regex-2.1.0.tgz","integrity":null,"time":1743498211754,"size":"0","metadata":{"time":1743498211754,"url":"http://registry.npmjs.org/ip-regex/-/ip-regex-2.1.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:31 GMT","location":"https://registry.npmjs.org/ip-regex/-/ip-regex-2.1.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+60407f01fc918e68e2262f5f7f4b959e4e52a662	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-bigint/-/is-bigint-1.0.4.tgz","integrity":null,"time":1743145744564,"size":"0","metadata":{"time":1743145744564,"url":"http://registry.npmjs.org/is-bigint/-/is-bigint-1.0.4.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 07:09:03 GMT","location":"https://registry.npmjs.org/is-bigint/-/is-bigint-1.0.4.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+4111f11c469f414f448ac7a103245ad62d606c4f	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/color-support","integrity":null,"time":1743397216200,"size":"0","metadata":{"time":1743397216200,"url":"http://registry.npmjs.org/color-support","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 31 Mar 2025 05:00:16 GMT","location":"https://registry.npmjs.org/color-support","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

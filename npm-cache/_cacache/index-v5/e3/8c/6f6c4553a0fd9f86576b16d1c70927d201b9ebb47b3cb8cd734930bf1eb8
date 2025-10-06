@@ -1,0 +1,2 @@
+
+2ccd0bff8de23dfc5d1820bcf5a82810e58fe748	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/timsort","integrity":null,"time":1743498174073,"size":"0","metadata":{"time":1743498174073,"url":"http://registry.npmjs.org/timsort","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:53 GMT","location":"https://registry.npmjs.org/timsort","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

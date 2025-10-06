@@ -1,0 +1,2 @@
+
+4ba5840e5d0fd58f3dd8fa3adcf658a3d60ed0b7	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/jest-haste-map","integrity":null,"time":1743498139059,"size":"0","metadata":{"time":1743498139058,"url":"http://registry.npmjs.org/jest-haste-map","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:18 GMT","location":"https://registry.npmjs.org/jest-haste-map","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

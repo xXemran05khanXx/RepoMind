@@ -1,0 +1,2 @@
+
+14c6de35724b81a09944dcb3e86473692331c5fb	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001703.tgz","integrity":null,"time":1743155044710,"size":"0","metadata":{"time":1743155044709,"url":"http://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001703.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 09:44:03 GMT","location":"https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001703.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

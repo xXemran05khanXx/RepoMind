@@ -1,0 +1,2 @@
+
+9f79b86c87713a339fdd14c78868e070dcf015f6	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/postcss-place","integrity":null,"time":1743498158077,"size":"0","metadata":{"time":1743498158077,"url":"http://registry.npmjs.org/postcss-place","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:37 GMT","location":"https://registry.npmjs.org/postcss-place","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

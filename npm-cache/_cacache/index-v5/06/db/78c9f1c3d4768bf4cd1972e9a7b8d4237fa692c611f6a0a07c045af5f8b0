@@ -1,0 +1,2 @@
+
+82d60e7196ca7afe70d54be477a5e62a2c5d24b8	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@clerk/clerk-react/-/clerk-react-4.22.1.tgz","integrity":null,"time":1743145752975,"size":"0","metadata":{"time":1743145752975,"url":"http://registry.npmjs.org/@clerk/clerk-react/-/clerk-react-4.22.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 07:09:11 GMT","location":"https://registry.npmjs.org/@clerk/clerk-react/-/clerk-react-4.22.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

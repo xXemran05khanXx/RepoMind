@@ -1,0 +1,2 @@
+
+439a532d4a0b4d8fc03a301ea9f32331c55eefe4	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/whatwg-mimetype/-/whatwg-mimetype-2.3.0.tgz","integrity":null,"time":1743498192946,"size":"0","metadata":{"time":1743498192946,"url":"http://registry.npmjs.org/whatwg-mimetype/-/whatwg-mimetype-2.3.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:12 GMT","location":"https://registry.npmjs.org/whatwg-mimetype/-/whatwg-mimetype-2.3.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

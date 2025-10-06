@@ -1,0 +1,2 @@
+
+290f386da6e578d01380f7b65436e5c8cd60bbed	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/asn1js/-/asn1js-3.0.5.tgz","integrity":null,"time":1743145749338,"size":"0","metadata":{"time":1743145749338,"url":"http://registry.npmjs.org/asn1js/-/asn1js-3.0.5.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 07:09:08 GMT","location":"https://registry.npmjs.org/asn1js/-/asn1js-3.0.5.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

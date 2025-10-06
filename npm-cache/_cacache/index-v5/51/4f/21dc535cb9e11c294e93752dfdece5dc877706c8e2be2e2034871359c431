@@ -1,0 +1,2 @@
+
+ed4f82547205c3fb41762ac5ab8cfcc808aa5760	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/jest-mock","integrity":null,"time":1743498139559,"size":"0","metadata":{"time":1743498139558,"url":"http://registry.npmjs.org/jest-mock","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:19 GMT","location":"https://registry.npmjs.org/jest-mock","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

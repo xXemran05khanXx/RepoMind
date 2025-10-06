@@ -1,0 +1,2 @@
+
+ae351bcc06f13686cdf7ec262969ee2a64f73843	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/split-string/-/split-string-3.1.0.tgz","integrity":null,"time":1743498196332,"size":"0","metadata":{"time":1743498196332,"url":"http://registry.npmjs.org/split-string/-/split-string-3.1.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:15 GMT","location":"https://registry.npmjs.org/split-string/-/split-string-3.1.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

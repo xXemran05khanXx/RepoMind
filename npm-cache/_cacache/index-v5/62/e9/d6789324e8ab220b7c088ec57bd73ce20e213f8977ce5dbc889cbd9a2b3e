@@ -1,0 +1,2 @@
+
+983b2a6c950045a3d25f72a291d6ef69f09bfef9	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@types/whatwg-url/-/whatwg-url-11.0.5.tgz","integrity":null,"time":1743506732517,"size":"0","metadata":{"time":1743506732516,"url":"http://registry.npmjs.org/@types/whatwg-url/-/whatwg-url-11.0.5.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 11:25:32 GMT","location":"https://registry.npmjs.org/@types/whatwg-url/-/whatwg-url-11.0.5.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

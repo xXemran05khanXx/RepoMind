@@ -1,0 +1,2 @@
+
+243e2df9a83b121de8af059f4416301331008fef	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/elliptic","integrity":null,"time":1743498116945,"size":"0","metadata":{"time":1743498116945,"url":"http://registry.npmjs.org/elliptic","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:56 GMT","location":"https://registry.npmjs.org/elliptic","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

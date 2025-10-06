@@ -1,0 +1,2 @@
+
+135e9e66b701528d30f33bcaf2f9d125dfd0d430	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/colorette","integrity":null,"time":1743498108242,"size":"0","metadata":{"time":1743498108242,"url":"http://registry.npmjs.org/colorette","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:48 GMT","location":"https://registry.npmjs.org/colorette","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

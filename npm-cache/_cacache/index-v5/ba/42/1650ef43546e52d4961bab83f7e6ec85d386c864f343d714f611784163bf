@@ -1,0 +1,2 @@
+
+8a5451987c064f7e8e44f02d331c656e0de261c7	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/dom-converter/-/dom-converter-0.2.0.tgz","integrity":null,"time":1743498218272,"size":"0","metadata":{"time":1743498218272,"url":"http://registry.npmjs.org/dom-converter/-/dom-converter-0.2.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:37 GMT","location":"https://registry.npmjs.org/dom-converter/-/dom-converter-0.2.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

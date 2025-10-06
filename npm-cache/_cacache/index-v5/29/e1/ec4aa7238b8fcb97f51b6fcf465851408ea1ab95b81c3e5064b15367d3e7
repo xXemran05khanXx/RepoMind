@@ -1,0 +1,2 @@
+
+ff3de3842d9198b4dea3a3ca5403aedcfa9b9ace	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/spdx-exceptions","integrity":null,"time":1743498170762,"size":"0","metadata":{"time":1743498170762,"url":"http://registry.npmjs.org/spdx-exceptions","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:50 GMT","location":"https://registry.npmjs.org/spdx-exceptions","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

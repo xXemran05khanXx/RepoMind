@@ -1,0 +1,2 @@
+
+20bb54efd6aeea8cce51a1b126ee9f8e53ff5cc8	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/socket.io","integrity":null,"time":1743506724636,"size":"0","metadata":{"time":1743506724636,"url":"http://registry.npmjs.org/socket.io","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 11:25:24 GMT","location":"https://registry.npmjs.org/socket.io","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+46bc7de95ac593ed492d28f16515a1583d0533e3	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/yup/-/yup-1.6.1.tgz","integrity":null,"time":1743351860266,"size":"0","metadata":{"time":1743351860266,"url":"http://registry.npmjs.org/yup/-/yup-1.6.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 30 Mar 2025 16:24:20 GMT","location":"https://registry.npmjs.org/yup/-/yup-1.6.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

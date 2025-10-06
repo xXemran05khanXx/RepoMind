@@ -1,0 +1,2 @@
+
+22f391acbc3700a6b372904d39dfabfe7be74a77	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/w3c-xmlserializer","integrity":null,"time":1743498178138,"size":"0","metadata":{"time":1743498178138,"url":"http://registry.npmjs.org/w3c-xmlserializer","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:57 GMT","location":"https://registry.npmjs.org/w3c-xmlserializer","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+9b4add33677b3c0ff95e5c1f1b1ee19e184c9edd	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/asap","integrity":null,"time":1743498099540,"size":"0","metadata":{"time":1743498099540,"url":"http://registry.npmjs.org/asap","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:39 GMT","location":"https://registry.npmjs.org/asap","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

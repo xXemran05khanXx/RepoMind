@@ -1,0 +1,2 @@
+
+61d38503969743d040c31e575d50299d327f3be9	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/regex-parser/-/regex-parser-2.2.10.tgz","integrity":null,"time":1743498199048,"size":"0","metadata":{"time":1743498199048,"url":"http://registry.npmjs.org/regex-parser/-/regex-parser-2.2.10.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:18 GMT","location":"https://registry.npmjs.org/regex-parser/-/regex-parser-2.2.10.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

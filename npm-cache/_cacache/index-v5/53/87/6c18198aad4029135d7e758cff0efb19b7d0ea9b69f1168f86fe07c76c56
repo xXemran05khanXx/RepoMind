@@ -1,0 +1,2 @@
+
+8602bf0d1afcd958752522ddff0a18ac0683a9b5	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/global-prefix/-/global-prefix-3.0.0.tgz","integrity":null,"time":1743498214442,"size":"0","metadata":{"time":1743498214441,"url":"http://registry.npmjs.org/global-prefix/-/global-prefix-3.0.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:33 GMT","location":"https://registry.npmjs.org/global-prefix/-/global-prefix-3.0.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

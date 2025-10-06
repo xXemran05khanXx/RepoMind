@@ -1,0 +1,2 @@
+
+cb5409df9380a3b797b5ce24af04862a9588a78b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@material-ui/system/-/system-4.9.14.tgz","integrity":null,"time":1743498229937,"size":"0","metadata":{"time":1743498229937,"url":"http://registry.npmjs.org/@material-ui/system/-/system-4.9.14.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:49 GMT","location":"https://registry.npmjs.org/@material-ui/system/-/system-4.9.14.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

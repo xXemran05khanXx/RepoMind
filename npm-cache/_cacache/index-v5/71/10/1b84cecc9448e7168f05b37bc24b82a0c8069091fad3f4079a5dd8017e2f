@@ -1,0 +1,2 @@
+
+cd92046b07364d94c83b8764e830d21d970b0712	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/infer-owner","integrity":null,"time":1743498132782,"size":"0","metadata":{"time":1743498132782,"url":"http://registry.npmjs.org/infer-owner","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:12 GMT","location":"https://registry.npmjs.org/infer-owner","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+24c5fbc248da1bf20118fa4d7800aada2ece0b48	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/watchpack","integrity":null,"time":1743498178359,"size":"0","metadata":{"time":1743498178359,"url":"http://registry.npmjs.org/watchpack","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:58 GMT","location":"https://registry.npmjs.org/watchpack","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

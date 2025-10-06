@@ -1,0 +1,2 @@
+
+ef80f3bcb36e70e54d79dde29bdd4afab76bd730	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/spdy-transport","integrity":null,"time":1743498170974,"size":"0","metadata":{"time":1743498170974,"url":"http://registry.npmjs.org/spdy-transport","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:50 GMT","location":"https://registry.npmjs.org/spdy-transport","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

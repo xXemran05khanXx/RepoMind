@@ -1,0 +1,2 @@
+
+08697003afde9779ea57156fffb7fc1746dd9bdc	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/mongodb-client-encryption","integrity":null,"time":1743506728616,"size":"0","metadata":{"time":1743506728616,"url":"http://registry.npmjs.org/mongodb-client-encryption","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 11:25:28 GMT","location":"https://registry.npmjs.org/mongodb-client-encryption","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

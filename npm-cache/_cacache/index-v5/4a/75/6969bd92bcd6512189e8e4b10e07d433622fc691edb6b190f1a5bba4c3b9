@@ -1,0 +1,2 @@
+
+9756ae95fe8f30d3c2d5176caa826e564364ae10	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/nopt","integrity":null,"time":1743397214884,"size":"0","metadata":{"time":1743397214884,"url":"http://registry.npmjs.org/nopt","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 31 Mar 2025 05:00:15 GMT","location":"https://registry.npmjs.org/nopt","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

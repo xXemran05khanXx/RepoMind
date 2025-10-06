@@ -1,0 +1,2 @@
+
+b44591499912a1c919ccf4e295d28c0a330d7bf0	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/find-root/-/find-root-1.1.0.tgz","integrity":null,"time":1743504707626,"size":"0","metadata":{"time":1743504707626,"url":"http://registry.npmjs.org/find-root/-/find-root-1.1.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 10:51:46 GMT","location":"https://registry.npmjs.org/find-root/-/find-root-1.1.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

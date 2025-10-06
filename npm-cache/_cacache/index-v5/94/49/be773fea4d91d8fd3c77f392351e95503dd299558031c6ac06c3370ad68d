@@ -1,0 +1,2 @@
+
+84699a237bfb3aebc7095edc396c3af7da25bf0b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/buffer-xor/-/buffer-xor-1.0.3.tgz","integrity":null,"time":1743498222235,"size":"0","metadata":{"time":1743498222235,"url":"http://registry.npmjs.org/buffer-xor/-/buffer-xor-1.0.3.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:41 GMT","location":"https://registry.npmjs.org/buffer-xor/-/buffer-xor-1.0.3.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+34d74d305cbfc6c8a3fe46bfcb4f915208ca1a46	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/minizlib","integrity":null,"time":1743397215764,"size":"0","metadata":{"time":1743397215764,"url":"http://registry.npmjs.org/minizlib","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 31 Mar 2025 05:00:16 GMT","location":"https://registry.npmjs.org/minizlib","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

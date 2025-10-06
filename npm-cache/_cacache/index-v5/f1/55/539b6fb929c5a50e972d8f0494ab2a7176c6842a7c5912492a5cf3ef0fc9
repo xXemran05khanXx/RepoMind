@@ -1,0 +1,2 @@
+
+f0ee440b89a8fcbf6e2d82a3cdb4f9cdee5823d5	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/chardet","integrity":null,"time":1743498106320,"size":"0","metadata":{"time":1743498106320,"url":"http://registry.npmjs.org/chardet","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:46 GMT","location":"https://registry.npmjs.org/chardet","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

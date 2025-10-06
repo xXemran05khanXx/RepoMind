@@ -1,0 +1,2 @@
+
+c2d5627473ce28e8b1ad59d846441d6e1b53d1b5	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/caseless","integrity":null,"time":1743498106321,"size":"0","metadata":{"time":1743498106321,"url":"http://registry.npmjs.org/caseless","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:46 GMT","location":"https://registry.npmjs.org/caseless","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

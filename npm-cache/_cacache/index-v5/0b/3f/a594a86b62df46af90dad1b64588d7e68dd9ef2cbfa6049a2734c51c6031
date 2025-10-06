@@ -1,0 +1,2 @@
+
+6a6aaa47e8f8e62a254a9d5fe60f65bdef798121	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/base64id","integrity":null,"time":1743506726978,"size":"0","metadata":{"time":1743506726978,"url":"http://registry.npmjs.org/base64id","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 11:25:26 GMT","location":"https://registry.npmjs.org/base64id","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

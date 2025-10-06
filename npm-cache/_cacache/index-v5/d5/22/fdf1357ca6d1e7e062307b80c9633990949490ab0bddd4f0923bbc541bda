@@ -1,0 +1,2 @@
+
+5d28179e797b36725cdf8a1930a8fecba6478743	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz","integrity":null,"time":1743145750070,"size":"0","metadata":{"time":1743145750070,"url":"http://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 07:09:08 GMT","location":"https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

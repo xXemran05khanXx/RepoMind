@@ -1,0 +1,2 @@
+
+8028f6a7c116c857e3fb488e1ec99e12db844f63	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-bigint","integrity":null,"time":1741446185349,"size":"0","metadata":{"time":1741446185349,"url":"http://registry.npmjs.org/is-bigint","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 08 Mar 2025 15:03:05 GMT","location":"https://registry.npmjs.org/is-bigint","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

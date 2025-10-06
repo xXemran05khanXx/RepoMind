@@ -1,0 +1,2 @@
+
+722f2bf8c6a6e503acbb09962b9ecc9736c44cb3	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/undici-types/-/undici-types-6.20.0.tgz","integrity":null,"time":1743153800304,"size":"0","metadata":{"time":1743153800304,"url":"http://registry.npmjs.org/undici-types/-/undici-types-6.20.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 09:23:19 GMT","location":"https://registry.npmjs.org/undici-types/-/undici-types-6.20.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

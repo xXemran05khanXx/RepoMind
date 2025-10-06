@@ -1,0 +1,2 @@
+
+4f9225d5b0d11c9f0ef6232b511b0f640a44f0f2	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/atob","integrity":null,"time":1743498100316,"size":"0","metadata":{"time":1743498100316,"url":"http://registry.npmjs.org/atob","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:40 GMT","location":"https://registry.npmjs.org/atob","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

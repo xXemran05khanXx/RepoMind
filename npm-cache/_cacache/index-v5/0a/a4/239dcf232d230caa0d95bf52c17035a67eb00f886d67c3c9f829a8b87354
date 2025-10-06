@@ -1,0 +1,2 @@
+
+2283467fcdfbc8279d6b9f2a095bc969eaa5ecbd	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/emojis-list/-/emojis-list-3.0.0.tgz","integrity":null,"time":1743498218026,"size":"0","metadata":{"time":1743498218026,"url":"http://registry.npmjs.org/emojis-list/-/emojis-list-3.0.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:37 GMT","location":"https://registry.npmjs.org/emojis-list/-/emojis-list-3.0.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

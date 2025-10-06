@@ -1,0 +1,2 @@
+
+4cef9f4ef7e9d50658c7805ad236f03df085db3b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/duplexify","integrity":null,"time":1743498116612,"size":"0","metadata":{"time":1743498116612,"url":"http://registry.npmjs.org/duplexify","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:56 GMT","location":"https://registry.npmjs.org/duplexify","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

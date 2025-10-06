@@ -1,0 +1,2 @@
+
+faa0e4dcbc8768f58642e716b746d7c9480e7ef7	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/urix","integrity":null,"time":1743498176892,"size":"0","metadata":{"time":1743498176892,"url":"http://registry.npmjs.org/urix","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:56 GMT","location":"https://registry.npmjs.org/urix","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

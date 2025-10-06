@@ -1,0 +1,2 @@
+
+7f0f461d7ac31d0ef1bd0b0400135d3e7b347327	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/shell-quote","integrity":null,"time":1743498169734,"size":"0","metadata":{"time":1743498169734,"url":"http://registry.npmjs.org/shell-quote","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:49 GMT","location":"https://registry.npmjs.org/shell-quote","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

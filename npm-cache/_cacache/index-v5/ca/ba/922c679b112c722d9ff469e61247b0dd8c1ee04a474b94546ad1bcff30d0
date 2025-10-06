@@ -1,0 +1,2 @@
+
+cd93be0546c28083789774285f0017418b42adcf	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/deep-equal","integrity":null,"time":1743498113905,"size":"0","metadata":{"time":1743498113905,"url":"http://registry.npmjs.org/deep-equal","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:53 GMT","location":"https://registry.npmjs.org/deep-equal","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

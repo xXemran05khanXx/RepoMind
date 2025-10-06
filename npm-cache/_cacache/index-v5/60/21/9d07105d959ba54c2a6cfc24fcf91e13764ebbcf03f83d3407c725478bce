@@ -1,0 +1,2 @@
+
+da632bb158076c9d98eeb5b7a3a8c13bb5643ee7	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-weakset","integrity":null,"time":1741446185587,"size":"0","metadata":{"time":1741446185586,"url":"http://registry.npmjs.org/is-weakset","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 08 Mar 2025 15:03:06 GMT","location":"https://registry.npmjs.org/is-weakset","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

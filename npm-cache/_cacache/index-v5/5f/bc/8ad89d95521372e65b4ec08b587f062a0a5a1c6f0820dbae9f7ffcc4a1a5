@@ -1,0 +1,2 @@
+
+414dca0a427bf2425dcef76c82dc8ee56bb95b74	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/ansi-html","integrity":null,"time":1743498098401,"size":"0","metadata":{"time":1743498098400,"url":"http://registry.npmjs.org/ansi-html","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:38 GMT","location":"https://registry.npmjs.org/ansi-html","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

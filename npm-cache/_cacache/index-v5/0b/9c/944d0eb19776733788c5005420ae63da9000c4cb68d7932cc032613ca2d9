@@ -1,0 +1,2 @@
+
+4920d35c74f0fa14eb0af5a53a40e45eaf494122	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@types/cors/-/cors-2.8.14.tgz","integrity":null,"time":1743504636722,"size":"0","metadata":{"time":1743504636722,"url":"http://registry.npmjs.org/@types/cors/-/cors-2.8.14.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 10:50:36 GMT","location":"https://registry.npmjs.org/@types/cors/-/cors-2.8.14.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

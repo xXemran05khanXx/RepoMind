@@ -1,0 +1,2 @@
+
+d7663ee57103e36b412000a3ffbbe12ba9a5a6d8	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/nwsapi/-/nwsapi-2.2.0.tgz","integrity":null,"time":1743498206233,"size":"0","metadata":{"time":1743498206232,"url":"http://registry.npmjs.org/nwsapi/-/nwsapi-2.2.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:25 GMT","location":"https://registry.npmjs.org/nwsapi/-/nwsapi-2.2.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

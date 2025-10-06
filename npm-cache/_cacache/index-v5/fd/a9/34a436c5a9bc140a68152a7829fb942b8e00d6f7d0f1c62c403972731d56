@@ -1,0 +1,2 @@
+
+0bca331ade59ec99345aa0057e6c7361f6c118ab	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/rimraf/-/rimraf-2.7.1.tgz","integrity":null,"time":1743498247819,"size":"0","metadata":{"time":1743498247819,"url":"http://registry.npmjs.org/rimraf/-/rimraf-2.7.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:04:07 GMT","location":"https://registry.npmjs.org/rimraf/-/rimraf-2.7.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

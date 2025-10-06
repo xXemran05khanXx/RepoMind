@@ -1,0 +1,2 @@
+
+ba7871097798069279ded9bf24bf2ed4b144a87f	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/pkg-dir/-/pkg-dir-3.0.0.tgz","integrity":null,"time":1743498203331,"size":"0","metadata":{"time":1743498203331,"url":"http://registry.npmjs.org/pkg-dir/-/pkg-dir-3.0.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:22 GMT","location":"https://registry.npmjs.org/pkg-dir/-/pkg-dir-3.0.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

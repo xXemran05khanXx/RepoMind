@@ -1,0 +1,20 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v23.9.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:d:\SEM  VII\MAJOR\RepoMind\MiindAI\MiindAI\.npmrc
+5 silly config load:file:C:\Users\Prabhakar Y Dickonda\.npmrc
+6 silly config load:file:C:\Users\Prabhakar Y Dickonda\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm view @types/react-dom description dist-tags.latest homepage version time
+8 verbose argv "view" "--json" "--" "@types/react-dom" "description" "dist-tags.latest" "homepage" "version" "time"
+9 verbose logfile logs-max:10 dir:C:\Users\Prabhakar Y Dickonda\AppData\Local\npm-cache\_logs\2025-09-03T17_43_22_338Z-
+10 verbose logfile C:\Users\Prabhakar Y Dickonda\AppData\Local\npm-cache\_logs\2025-09-03T17_43_22_338Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmjs.org/@types%2Freact-dom 264ms (cache updated)
+14 verbose cwd d:\SEM  VII\MAJOR\RepoMind\MiindAI\MiindAI
+15 verbose os Windows_NT 10.0.26100
+16 verbose node v23.9.0
+17 verbose npm  v10.9.2
+18 verbose exit 0
+19 info ok

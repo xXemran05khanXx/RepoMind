@@ -1,0 +1,2 @@
+
+2c20b6857ec94902e45e8d90ca3957ef4ab7dfc2	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/aria-hidden/-/aria-hidden-1.2.3.tgz","integrity":null,"time":1743145749640,"size":"0","metadata":{"time":1743145749640,"url":"http://registry.npmjs.org/aria-hidden/-/aria-hidden-1.2.3.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 07:09:08 GMT","location":"https://registry.npmjs.org/aria-hidden/-/aria-hidden-1.2.3.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

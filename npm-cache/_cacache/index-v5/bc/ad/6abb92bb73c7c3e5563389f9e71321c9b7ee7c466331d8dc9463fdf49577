@@ -1,0 +1,2 @@
+
+d82656f2bb408924e88c137f3994496727b4bfb9	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/pumpify","integrity":null,"time":1743498160461,"size":"0","metadata":{"time":1743498160461,"url":"http://registry.npmjs.org/pumpify","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:40 GMT","location":"https://registry.npmjs.org/pumpify","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

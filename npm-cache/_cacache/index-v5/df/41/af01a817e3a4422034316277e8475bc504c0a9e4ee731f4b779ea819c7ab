@@ -1,0 +1,2 @@
+
+4d9ee4039c87ff46caa8a6b5fbce1459161c6360	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/jsonify","integrity":null,"time":1743498141865,"size":"0","metadata":{"time":1743498141865,"url":"http://registry.npmjs.org/jsonify","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:21 GMT","location":"https://registry.npmjs.org/jsonify","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

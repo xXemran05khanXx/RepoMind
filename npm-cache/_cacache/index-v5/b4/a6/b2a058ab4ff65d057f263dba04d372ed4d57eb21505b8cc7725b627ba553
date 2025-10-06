@@ -1,0 +1,2 @@
+
+b4fcc84adc9e99e8679e4eef377fa3b37f18a3de	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/realpath-native/-/realpath-native-1.1.0.tgz","integrity":null,"time":1743498199073,"size":"0","metadata":{"time":1743498199072,"url":"http://registry.npmjs.org/realpath-native/-/realpath-native-1.1.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:18 GMT","location":"https://registry.npmjs.org/realpath-native/-/realpath-native-1.1.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

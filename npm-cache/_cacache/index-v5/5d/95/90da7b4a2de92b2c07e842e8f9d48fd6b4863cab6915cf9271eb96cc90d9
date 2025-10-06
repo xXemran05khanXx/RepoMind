@@ -1,0 +1,2 @@
+
+939f392563c7533285b7c0f438e82b627aa5610c	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/esprima","integrity":null,"time":1743498122106,"size":"0","metadata":{"time":1743498122106,"url":"http://registry.npmjs.org/esprima","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:01 GMT","location":"https://registry.npmjs.org/esprima","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

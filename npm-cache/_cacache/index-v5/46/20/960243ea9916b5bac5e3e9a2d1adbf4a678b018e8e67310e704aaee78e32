@@ -1,0 +1,2 @@
+
+5bd7065af7a9a6b781292d59444d385922bc369c	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/console-control-strings","integrity":null,"time":1743397215623,"size":"0","metadata":{"time":1743397215623,"url":"http://registry.npmjs.org/console-control-strings","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 31 Mar 2025 05:00:16 GMT","location":"https://registry.npmjs.org/console-control-strings","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

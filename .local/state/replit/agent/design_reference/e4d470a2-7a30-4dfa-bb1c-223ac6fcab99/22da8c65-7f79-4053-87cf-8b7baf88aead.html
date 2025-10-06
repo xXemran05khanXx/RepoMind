@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RepoMind - AI-Powered Codebase Intelligence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        darkMode: 'class',
+        theme: {
+            extend: {
+                borderRadius: {
+                    lg: "var(--radius)",
+                    md: "calc(var(--radius) - 2px)",
+                    sm: "calc(var(--radius) - 4px)",
+                },
+                colors: {
+                    background: "var(--background)",
+                    foreground: "var(--foreground)",
+                    card: {
+                        DEFAULT: "var(--card)",
+                        foreground: "var(--card-foreground)",
+                    },
+                    popover: {
+                        DEFAULT: "var(--popover)",
+                        foreground: "var(--popover-foreground)",
+                    },
+                    primary: {
+                        DEFAULT: "var(--primary)",
+                        foreground: "var(--primary-foreground)",
+                    },
+                    secondary: {
+                        DEFAULT: "var(--secondary)",
+                        foreground: "var(--secondary-foreground)",
+                    },
+                    muted: {
+                        DEFAULT: "var(--muted)",
+                        foreground: "var(--muted-foreground)",
+                    },
+                    accent: {
+                        DEFAULT: "var(--accent)",
+                        foreground: "var(--accent-foreground)",
+                    },
+                    destructive: {
+                        DEFAULT: "var(--destructive)",
+                        foreground: "var(--destructive-foreground)",
+                    },
+                    border: "var(--border)",
+                    input: "var(--input)",
+                    ring: "var(--ring)",
+                },
+                fontFamily: {
+                    sans: ["Inter", "system-ui", "sans-serif"],
+                    mono: ["JetBrains Mono", "monospace"],
+                }
+            },
+        }
+    };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --background: hsl(220 13% 9%);
+            --foreground: hsl(210 40% 98%);
+            --card: hsl(220 13% 11%);
+            --card-foreground: hsl(210 40% 98%);
+            --popover: hsl(220 13% 11%);
+            --popover-foreground: hsl(210 40% 98%);
+            --primary: hsl(217 91% 60%);
+            --primary-foreground: hsl(210 40% 98%);
+            --secondary: hsl(220 14% 14%);
+            --secondary-foreground: hsl(210 40% 98%);
+            --muted: hsl(220 14% 14%);
+            --muted-foreground: hsl(215 20% 65%);
+            --accent: hsl(220 14% 14%);
+            --accent-foreground: hsl(210 40% 98%);
+            --destructive: hsl(0 84% 60%);
+            --destructive-foreground: hsl(210 40% 98%);
+            --border: hsl(220 13% 18%);
+            --input: hsl(220 13% 18%);
+            --ring: hsl(217 91% 60%);
+            --radius: 0.5rem;
+        }
+        
+        .sidebar-hidden {
+            transform: translateX(-100%);
+        }
+        
+        .code-bg {
+            background: hsl(220 13% 8%);
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, hsl(217 91% 60%), hsl(142 71% 45%));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="bg-background text-foreground font-sans">
+    <!-- @COMPONENT: LandingPage -->
+    <div id="landing-page" class="min-h-screen">
+        <!-- Navigation -->
+        <!-- @COMPONENT: Navigation -->
+        <nav class="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-16">
+                    <div class="flex items-center space-x-4">
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-brain text-primary text-2xl"></i>
+                            <span class="text-xl font-bold gradient-text">RepoMind</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hidden md:flex items-center space-x-8">
+                        <a href="#features" class="text-muted-foreground hover:text-foreground transition-colors">Features</a>
+                        <a href="#pricing" class="text-muted-foreground hover:text-foreground transition-colors">Pricing</a>
+                        <a href="#docs" class="text-muted-foreground hover:text-foreground transition-colors">Docs</a>
+                    </div>
+                    
+                    <div class="flex items-center space-x-4">
+                        <button onclick="showLogin()" class="text-muted-foreground hover:text-foreground transition-colors">Sign In</button>
+                        <button onclick="showSignup()" class="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90 transition-colors">
+                            Start Free
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- @END_COMPONENT: Navigation -->
+
+        <!-- Hero Section -->
+        <!-- @COMPONENT: HeroSection -->
+        <section class="py-20 lg:py-32">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h1 class="text-4xl lg:text-6xl font-bold mb-6">
+                        <span class="gradient-text">AI-Powered</span><br>
+                        Codebase Intelligence
+                    </h1>
+                    <p class="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
+                        Connect your GitHub repositories and get instant AI-powered insights, 
+                        commit summaries, and contextual code assistance using advanced RAG technology.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <button onclick="showSignup()" class="bg-primary text-primary-foreground px-8 py-3 rounded-lg text-lg font-medium hover:bg-primary/90 transition-colors">
+                            <i class="fab fa-github mr-2"></i>
+                            Connect GitHub - Free
+                        </button>
+                        <button class="border border-border text-foreground px-8 py-3 rounded-lg text-lg font-medium hover:bg-accent transition-colors">
+                            <i class="fas fa-play mr-2"></i>
+                            Watch Demo
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Hero Image/Demo -->
+                <div class="mt-16">
+                    <!-- A clean dashboard showing AI code analysis interface -->
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080" 
+                         alt="Dashboard showing AI code analysis interface" 
+                         class="rounded-xl shadow-2xl w-full border border-border" />
+                </div>
+            </div>
+        </section>
+        <!-- @END_COMPONENT: HeroSection -->
+
+        <!-- Features Section -->
+        <!-- @COMPONENT: FeaturesSection -->
+        <section id="features" class="py-20 bg-card/30">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl lg:text-4xl font-bold mb-4">Powerful Features for Developers</h2>
+                    <p class="text-xl text-muted-foreground">Everything you need to understand and collaborate on complex codebases</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-card border border-border p-6 rounded-lg">
+                        <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fab fa-github text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">GitHub Integration</h3>
+                        <p class="text-muted-foreground">Seamlessly connect repositories and analyze entire codebases with advanced vector embeddings.</p>
+                    </div>
+                    
+                    <div class="bg-card border border-border p-6 rounded-lg">
+                        <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-robot text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">AI Code Assistant</h3>
+                        <p class="text-muted-foreground">Ask natural language questions about your code and get contextual, accurate answers using RAG.</p>
+                    </div>
+                    
+                    <div class="bg-card border border-border p-6 rounded-lg">
+                        <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-history text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Commit Insights</h3>
+                        <p class="text-muted-foreground">AI-generated summaries of commit histories help you understand project evolution quickly.</p>
+                    </div>
+                    
+                    <div class="bg-card border border-border p-6 rounded-lg">
+                        <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-search text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Semantic Search</h3>
+                        <p class="text-muted-foreground">Find relevant code sections using natural language search powered by vector embeddings.</p>
+                    </div>
+                    
+                    <div class="bg-card border border-border p-6 rounded-lg">
+                        <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-users text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Team Collaboration</h3>
+                        <p class="text-muted-foreground">Share insights and collaborate with team members on repository analysis and findings.</p>
+                    </div>
+                    
+                    <div class="bg-card border border-border p-6 rounded-lg">
+                        <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                            <i class="fas fa-shield-alt text-primary text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Secure & Private</h3>
+                        <p class="text-muted-foreground">Enterprise-grade security with OAuth authentication and encrypted data processing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- @END_COMPONENT: FeaturesSection -->
+
+        <!-- Pricing Section -->
+        <!-- @COMPONENT: PricingSection -->
+        <section id="pricing" class="py-20">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl lg:text-4xl font-bold mb-4">Simple, Transparent Pricing</h2>
+                    <p class="text-xl text-muted-foreground">Start free and scale as you grow</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <!-- Free Tier -->
+                    <div class="bg-card border border-border p-8 rounded-lg">
+                        <div class="text-center">
+                            <h3 class="text-2xl font-bold mb-2">Free Tier</h3>
+                            <div class="text-4xl font-bold mb-4">$0<span class="text-lg text-muted-foreground">/month</span></div>
+                            <p class="text-muted-foreground mb-6">Perfect for getting started</p>
+                        </div>
+                        
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>3 repositories</li>
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>100 AI queries/month</li>
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Basic commit summaries</li>
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>GitHub OAuth integration</li>
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Community support</li>
+                        </ul>
+                        
+                        <button onclick="showSignup()" class="w-full border border-border text-foreground py-3 rounded-lg font-medium hover:bg-accent transition-colors">
+                            Start Free
+                        </button>
+                    </div>
+                    
+                    <!-- Pro Tier -->
+                    <div class="bg-primary/5 border border-primary p-8 rounded-lg relative">
+                        <div class="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                            <span class="bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">Most Popular</span>
+                        </div>
+                        
+                        <div class="text-center">
+                            <h3 class="text-2xl font-bold mb-2">Pro</h3>
+                            <div class="text-4xl font-bold mb-4">$19<span class="text-lg text-muted-foreground">/month</span></div>
+                            <p class="text-muted-foreground mb-6">For professional developers</p>
+                        </div>
+                        
+                        <ul class="space-y-3 mb-8">
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Unlimited repositories</li>
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Unlimited AI queries</li>
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Advanced analytics</li>
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Team collaboration</li>
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>Priority support</li>
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i>API access</li>
+                        </ul>
+                        
+                        <button class="w-full bg-primary text-primary-foreground py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors">
+                            Upgrade to Pro
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- @END_COMPONENT: PricingSection -->
+
+        <!-- Footer -->
+        <!-- @COMPONENT: Footer -->
+        <footer class="border-t border-border bg-card/30 py-12">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="flex items-center space-x-2 mb-4 md:mb-0">
+                        <i class="fas fa-brain text-primary text-xl"></i>
+                        <span class="text-lg font-bold">RepoMind</span>
+                    </div>
+                    <div class="text-muted-foreground text-sm">
+                        © 2024 RepoMind. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- @END_COMPONENT: Footer -->
+    </div>
+    <!-- @END_COMPONENT: LandingPage -->
+
+    <!-- Dashboard -->
+    <!-- @COMPONENT: Dashboard [hidden by default] -->
+    <div id="dashboard" class="hidden min-h-screen">
+        <!-- Sidebar -->
+        <!-- @COMPONENT: Sidebar -->
+        <div id="sidebar" class="fixed left-0 top-0 h-full w-64 bg-card border-r border-border transform transition-transform duration-300 z-30">
+            <div class="p-4">
+                <div class="flex items-center space-x-2 mb-8">
+                    <i class="fas fa-brain text-primary text-xl"></i>
+                    <span class="text-lg font-bold">RepoMind</span>
+                </div>
+                
+                <!-- User Info -->
+                <div class="flex items-center space-x-3 mb-6 p-3 bg-muted rounded-lg">
+                    <div class="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+                        <span class="text-primary-foreground text-sm font-medium" data-bind="user.initials">JD</span>
+                    </div>
+                    <div>
+                        <div class="font-medium text-sm" data-bind="user.name">John Doe</div>
+                        <div class="text-xs text-muted-foreground">Free Plan</div>
+                    </div>
+                </div>
+                
+                <!-- Navigation -->
+                <nav class="space-y-1">
+                    <a href="#" onclick="showDashboardSection('overview')" class="flex items-center space-x-3 px-3 py-2 rounded-lg text-foreground bg-accent">
+                        <i class="fas fa-home text-sm"></i>
+                        <span>Overview</span>
+                    </a>
+                    <a href="#" onclick="showDashboardSection('repositories')" class="flex items-center space-x-3 px-3 py-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-accent transition-colors">
+                        <i class="fab fa-github text-sm"></i>
+                        <span>Repositories</span>
+                    </a>
+                    <a href="#" onclick="showDashboardSection('queries')" class="flex items-center space-x-3 px-3 py-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-accent transition-colors">
+                        <i class="fas fa-question-circle text-sm"></i>
+                        <span>Queries</span>
+                    </a>
+                    <a href="#" onclick="showDashboardSection('analytics')" class="flex items-center space-x-3 px-3 py-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-accent transition-colors">
+                        <i class="fas fa-chart-bar text-sm"></i>
+                        <span>Analytics</span>
+                    </a>
+                </nav>
+                
+                <!-- Projects Section -->
+                <div class="mt-8">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-sm font-medium text-muted-foreground uppercase tracking-wide">Projects</h3>
+                        <button onclick="showConnectRepo()" class="text-primary hover:text-primary/80">
+                            <i class="fas fa-plus text-xs"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- @MAP: projects.map(project => ( -->
+                    <div class="space-y-2">
+                        <div class="flex items-center space-x-2 px-3 py-2 rounded-lg hover:bg-accent transition-colors cursor-pointer" onclick="selectProject('react-dashboard')">
+                            <i class="fab fa-react text-blue-400 text-sm"></i>
+                            <span class="text-sm" data-bind="project.name">react-dashboard</span>
+                        </div>
+                        <div class="flex items-center space-x-2 px-3 py-2 rounded-lg hover:bg-accent transition-colors cursor-pointer" onclick="selectProject('api-service')">
+                            <i class="fas fa-server text-green-400 text-sm"></i>
+                            <span class="text-sm" data-bind="project.name">api-service</span>
+                        </div>
+                        <div class="flex items-center space-x-2 px-3 py-2 rounded-lg hover:bg-accent transition-colors cursor-pointer" onclick="selectProject('mobile-app')">
+                            <i class="fas fa-mobile-alt text-purple-400 text-sm"></i>
+                            <span class="text-sm" data-bind="project.name">mobile-app</span>
+                        </div>
+                    </div>
+                    <!-- @END_MAP )) -->
+                </div>
+                
+                <!-- Usage Stats -->
+                <div class="mt-8 p-4 bg-muted rounded-lg">
+                    <div class="text-xs text-muted-foreground mb-2">Monthly Usage</div>
+                    <div class="flex justify-between text-sm">
+                        <span>Queries</span>
+                        <span data-bind="usage.queries">23/100</span>
+                    </div>
+                    <div class="w-full bg-background rounded-full h-2 mt-2">
+                        <div class="bg-primary h-2 rounded-full" style="width: 23%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- @END_COMPONENT: Sidebar -->
+
+        <!-- Main Content -->
+        <!-- @COMPONENT: MainContent -->
+        <div class="ml-64 min-h-screen">
+            <!-- Header -->
+            <!-- @COMPONENT: DashboardHeader -->
+            <header class="bg-background border-b border-border p-4">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center space-x-4">
+                        <button onclick="toggleSidebar()" class="md:hidden text-muted-foreground hover:text-foreground">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <h1 class="text-xl font-semibold">Dashboard</h1>
+                    </div>
+                    
+                    <div class="flex items-center space-x-4">
+                        <button class="text-muted-foreground hover:text-foreground">
+                            <i class="fas fa-bell"></i>
+                        </button>
+                        <button onclick="showSettings()" class="text-muted-foreground hover:text-foreground">
+                            <i class="fas fa-cog"></i>
+                        </button>
+                        <button onclick="logout()" class="text-muted-foreground hover:text-foreground">
+                            <i class="fas fa-sign-out-alt"></i>
+                        </button>
+                    </div>
+                </div>
+            </header>
+            <!-- @END_COMPONENT: DashboardHeader -->
+
+            <!-- Dashboard Content -->
+            <!-- @COMPONENT: DashboardContent -->
+            <main class="p-6">
+                <!-- Overview Section -->
+                <div id="overview-section" class="dashboard-section">
+                    <!-- Stats Cards -->
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                        <div class="bg-card border border-border p-6 rounded-lg">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p class="text-muted-foreground text-sm">Connected Repos</p>
+                                    <p class="text-2xl font-bold" data-bind="stats.repositories">3</p>
+                                </div>
+                                <i class="fab fa-github text-primary text-xl"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-card border border-border p-6 rounded-lg">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p class="text-muted-foreground text-sm">AI Queries</p>
+                                    <p class="text-2xl font-bold" data-bind="stats.queries">23</p>
+                                </div>
+                                <i class="fas fa-robot text-primary text-xl"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-card border border-border p-6 rounded-lg">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p class="text-muted-foreground text-sm">Files Analyzed</p>
+                                    <p class="text-2xl font-bold" data-bind="stats.files">1,247</p>
+                                </div>
+                                <i class="fas fa-file-code text-primary text-xl"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-card border border-border p-6 rounded-lg">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <p class="text-muted-foreground text-sm">Remaining Queries</p>
+                                    <p class="text-2xl font-bold" data-bind="stats.remaining">77</p>
+                                </div>
+                                <i class="fas fa-hourglass-half text-primary text-xl"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Recent Activity -->
+                    <div class="grid lg:grid-cols-2 gap-6">
+                        <div class="bg-card border border-border rounded-lg p-6">
+                            <h3 class="text-lg font-semibold mb-4">Recent Queries</h3>
+                            <!-- @MAP: recentQueries.map(query => ( -->
+                            <div class="space-y-4">
+                                <div class="flex items-start space-x-3 p-3 bg-muted rounded-lg">
+                                    <i class="fas fa-question-circle text-primary mt-1"></i>
+                                    <div class="flex-1">
+                                        <p class="text-sm font-medium" data-bind="query.text">How does authentication work in this project?</p>
+                                        <p class="text-xs text-muted-foreground mt-1" data-bind="query.timestamp">2 hours ago</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-3 p-3 bg-muted rounded-lg">
+                                    <i class="fas fa-question-circle text-primary mt-1"></i>
+                                    <div class="flex-1">
+                                        <p class="text-sm font-medium" data-bind="query.text">What's the purpose of the utils folder?</p>
+                                        <p class="text-xs text-muted-foreground mt-1" data-bind="query.timestamp">5 hours ago</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start space-x-3 p-3 bg-muted rounded-lg">
+                                    <i class="fas fa-question-circle text-primary mt-1"></i>
+                                    <div class="flex-1">
+                                        <p class="text-sm font-medium" data-bind="query.text">Show me all API endpoints</p>
+                                        <p class="text-xs text-muted-foreground mt-1" data-bind="query.timestamp">1 day ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- @END_MAP )) -->
+                        </div>
+                        
+                        <div class="bg-card border border-border rounded-lg p-6">
+                            <h3 class="text-lg font-semibold mb-4">Repository Insights</h3>
+                            <!-- A code repository visualization with file tree -->
+                            <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
+                                 alt="Code repository visualization with file tree" 
+                                 class="rounded-lg w-full h-32 object-cover mb-4 border border-border" />
+                            
+                            <!-- @MAP: insights.map(insight => ( -->
+                            <div class="space-y-3">
+                                <div class="flex items-center justify-between">
+                                    <span class="text-sm" data-bind="insight.label">Most Active Files</span>
+                                    <span class="text-sm text-muted-foreground" data-bind="insight.value">src/components/</span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-sm" data-bind="insight.label">Last Analysis</span>
+                                    <span class="text-sm text-muted-foreground" data-bind="insight.value">2 mins ago</span>
+                                </div>
+                                <div class="flex items-center justify-between">
+                                    <span class="text-sm" data-bind="insight.label">Code Complexity</span>
+                                    <span class="text-sm text-green-400" data-bind="insight.value">Low</span>
+                                </div>
+                            </div>
+                            <!-- @END_MAP )) -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Repositories Section -->
+                <div id="repositories-section" class="dashboard-section hidden">
+                    <div class="flex items-center justify-between mb-6">
+                        <h2 class="text-2xl font-bold">Repositories</h2>
+                        <button onclick="showConnectRepo()" class="bg-primary text-primary-foreground px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors">
+                            <i class="fab fa-github mr-2"></i>
+                            Connect Repository
+                        </button>
+                    </div>
+
+                    <!-- @MAP: repositories.map(repo => ( -->
+                    <div class="grid gap-6">
+                        <div class="bg-card border border-border rounded-lg p-6">
+                            <div class="flex items-start justify-between mb-4">
+                                <div class="flex items-center space-x-3">
+                                    <i class="fab fa-react text-blue-400 text-xl"></i>
+                                    <div>
+                                        <h3 class="font-semibold" data-bind="repo.name">react-dashboard</h3>
+                                        <p class="text-sm text-muted-foreground" data-bind="repo.description">Modern React dashboard with TypeScript</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-2">
+                                    <span class="bg-green-500/10 text-green-400 px-2 py-1 rounded text-xs">Active</span>
+                                    <button onclick="analyzeRepo('react-dashboard')" class="text-primary hover:text-primary/80">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
+                                <div>
+                                    <p class="text-muted-foreground">Files</p>
+                                    <p class="font-medium" data-bind="repo.fileCount">234</p>
+                                </div>
+                                <div>
+                                    <p class="text-muted-foreground">Commits</p>
+                                    <p class="font-medium" data-bind="repo.commitCount">89</p>
+                                </div>
+                                <div>
+                                    <p class="text-muted-foreground">Last Updated</p>
+                                    <p class="font-medium" data-bind="repo.lastUpdated">2 hours ago</p>
+                                </div>
+                                <div>
+                                    <p class="text-muted-foreground">Language</p>
+                                    <p class="font-medium" data-bind="repo.language">TypeScript</p>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-4 flex space-x-3">
+                                <button onclick="askQuestion('react-dashboard')" class="bg-primary text-primary-foreground px-3 py-1 rounded text-sm hover:bg-primary/90 transition-colors">
+                                    Ask AI
+                                </button>
+                                <button onclick="viewCommits('react-dashboard')" class="border border-border text-foreground px-3 py-1 rounded text-sm hover:bg-accent transition-colors">
+                                    View Commits
+                                </button>
+                                <button onclick="viewFiles('react-dashboard')" class="border border-border text-foreground px-3 py-1 rounded text-sm hover:bg-accent transition-colors">
+                                    Browse Files
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="bg-card border border-border rounded-lg p-6">
+                            <div class="flex items-start justify-between mb-4">
+                                <div class="flex items-center space-x-3">
+                                    <i class="fas fa-server text-green-400 text-xl"></i>
+                                    <div>
+                                        <h3 class="font-semibold" data-bind="repo.name">api-service</h3>
+                                        <p class="text-sm text-muted-foreground" data-bind="repo.description">Node.js REST API with authentication</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center space-x-2">
+                                    <span class="bg-yellow-500/10 text-yellow-400 px-2 py-1 rounded text-xs">Processing</span>
+                                    <div class="animate-spin">
+                                        <i class="fas fa-spinner text-muted-foreground"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
+                                <div>
+                                    <p class="text-muted-foreground">Files</p>
+                                    <p class="font-medium" data-bind="repo.fileCount">156</p>
+                                </div>
+                                <div>
+                                    <p class="text-muted-foreground">Commits</p>
+                                    <p class="font-medium" data-bind="repo.commitCount">45</p>
+                                </div>
+                                <div>
+                                    <p class="text-muted-foreground">Last Updated</p>
+                                    <p class="font-medium" data-bind="repo.lastUpdated">1 day ago</p>
+                                </div>
+                                <div>
+                                    <p class="text-muted-foreground">Language</p>
+                                    <p class="font-medium" data-bind="repo.language">JavaScript</p>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-4">
+                                <div class="text-xs text-muted-foreground mb-2">Processing Progress</div>
+                                <div class="w-full bg-background rounded-full h-2">
+                                    <div class="bg-primary h-2 rounded-full transition-all duration-300" style="width: 65%"></div>
+                                </div>
+                                <p class="text-xs text-muted-foreground mt-1">Analyzing files and generating embeddings...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- @END_MAP )) -->
+                </div>
+
+                <!-- Queries Section -->
+                <div id="queries-section" class="dashboard-section hidden">
+                    <div class="flex items-center justify-between mb-6">
+                        <h2 class="text-2xl font-bold">AI Queries</h2>
+                        <button onclick="showNewQuery()" class="bg-primary text-primary-foreground px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors">
+                            <i class="fas fa-plus mr-2"></i>
+                            New Query
+                        </button>
+                    </div>
+
+                    <!-- Query Interface -->
+                    <div class="bg-card border border-border rounded-lg p-6 mb-6">
+                        <div class="flex items-center space-x-3 mb-4">
+                            <select class="bg-input border border-border rounded-lg px-3 py-2 text-sm">
+                                <option>react-dashboard</option>
+                                <option>api-service</option>
+                                <option>mobile-app</option>
+                            </select>
+                            <span class="text-muted-foreground text-sm">Select repository to query</span>
+                        </div>
+                        
+                        <div class="flex space-x-3">
+                            <input type="text" 
+                                   placeholder="Ask about your codebase... e.g., 'How does authentication work?'"
+                                   class="flex-1 bg-input border border-border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-ring"
+                                   data-implementation="Connect to AI query endpoint">
+                            <button class="bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Query History -->
+                    <div class="space-y-4">
+                        <!-- @MAP: queryHistory.map(query => ( -->
+                        <div class="bg-card border border-border rounded-lg p-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-user text-primary text-sm"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <p class="font-medium mb-2" data-bind="query.question">How does the authentication middleware work in the API service?</p>
+                                    <div class="bg-muted p-4 rounded-lg code-bg">
+                                        <div class="flex items-center space-x-2 mb-3">
+                                            <i class="fas fa-robot text-primary"></i>
+                                            <span class="text-sm font-medium">AI Response</span>
+                                        </div>
+                                        <p class="text-sm leading-relaxed" data-bind="query.answer">
+                                            The authentication middleware in your API service uses JWT tokens for verification. 
+                                            Located in <code class="bg-background px-1 rounded text-primary">middleware/auth.js</code>, 
+                                            it validates tokens from the Authorization header and attaches user data to the request object.
+                                        </p>
+                                        <div class="mt-3 pt-3 border-t border-border">
+                                            <p class="text-xs text-muted-foreground">
+                                                <i class="fas fa-file-code mr-1"></i>
+                                                Referenced files: middleware/auth.js, routes/protected.js, utils/jwt.js
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p class="text-xs text-muted-foreground mt-2" data-bind="query.timestamp">Asked 3 hours ago</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-card border border-border rounded-lg p-6">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-user text-primary text-sm"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <p class="font-medium mb-2" data-bind="query.question">What are the main components in the React dashboard?</p>
+                                    <div class="bg-muted p-4 rounded-lg code-bg">
+                                        <div class="flex items-center space-x-2 mb-3">
+                                            <i class="fas fa-robot text-primary"></i>
+                                            <span class="text-sm font-medium">AI Response</span>
+                                        </div>
+                                        <p class="text-sm leading-relaxed" data-bind="query.answer">
+                                            The main components include <code class="bg-background px-1 rounded text-primary">Sidebar</code>, 
+                                            <code class="bg-background px-1 rounded text-primary">Header</code>, 
+                                            <code class="bg-background px-1 rounded text-primary">Dashboard</code>, and 
+                                            <code class="bg-background px-1 rounded text-primary">DataTable</code>. 
+                                            These are located in the components folder and follow a modular architecture pattern.
+                                        </p>
+                                        <div class="mt-3 pt-3 border-t border-border">
+                                            <p class="text-xs text-muted-foreground">
+                                                <i class="fas fa-file-code mr-1"></i>
+                                                Referenced files: components/Sidebar.tsx, components/Header.tsx, components/Dashboard.tsx
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p class="text-xs text-muted-foreground mt-2" data-bind="query.timestamp">Asked 1 day ago</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- @END_MAP )) -->
+                    </div>
+                </div>
+
+                <!-- Analytics Section -->
+                <div id="analytics-section" class="dashboard-section hidden">
+                    <h2 class="text-2xl font-bold mb-6">Analytics</h2>
+                    
+                    <div class="grid lg:grid-cols-2 gap-6">
+                        <div class="bg-card border border-border rounded-lg p-6">
+                            <h3 class="text-lg font-semibold mb-4">Query Patterns</h3>
+                            <!-- A bar chart showing query analytics -->
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
+                                 alt="Bar chart showing query analytics patterns" 
+                                 class="rounded-lg w-full h-48 object-cover border border-border" />
+                        </div>
+                        
+                        <div class="bg-card border border-border rounded-lg p-6">
+                            <h3 class="text-lg font-semibold mb-4">Repository Activity</h3>
+                            <!-- A line graph showing repository activity over time -->
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400" 
+                                 alt="Line graph showing repository activity over time" 
+                                 class="rounded-lg w-full h-48 object-cover border border-border" />
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- @END_COMPONENT: DashboardContent -->
+        </div>
+        <!-- @END_COMPONENT: MainContent -->
+    </div>
+    <!-- @END_COMPONENT: Dashboard -->
+
+    <!-- Modals -->
+    <!-- @COMPONENT: AuthModals -->
+    <div id="auth-modal" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-card border border-border rounded-lg max-w-md w-full p-6">
+            <div class="text-center mb-6">
+                <i class="fas fa-brain text-primary text-3xl mb-3"></i>
+                <h2 class="text-2xl font-bold mb-2">Welcome to RepoMind</h2>
+                <p class="text-muted-foreground">Connect your GitHub account to get started</p>
+            </div>
+            
+            <button class="w-full bg-primary text-primary-foreground py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors mb-4">
+                <i class="fab fa-github mr-2"></i>
+                Continue with GitHub
+            </button>
+            
+            <div class="text-center">
+                <button onclick="hideModals()" class="text-muted-foreground hover:text-foreground text-sm">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <!-- @END_COMPONENT: AuthModals -->
+
+    <!-- Connect Repository Modal -->
+    <!-- @COMPONENT: ConnectRepoModal -->
+    <div id="connect-repo-modal" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-card border border-border rounded-lg max-w-lg w-full p-6">
+            <div class="flex items-center justify-between mb-6">
+                <h2 class="text-xl font-bold">Connect Repository</h2>
+                <button onclick="hideModals()" class="text-muted-foreground hover:text-foreground">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="space-y-4">
+                <div>
+                    <label class="block text-sm font-medium mb-2">Repository URL</label>
+                    <input type="url" 
+                           placeholder="https://github.com/username/repository"
+                           class="w-full bg-input border border-border rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-ring"
+                           data-implementation="Connect to GitHub API for repository validation">
+                </div>
+                
+                <div class="bg-muted p-4 rounded-lg">
+                    <div class="flex items-center space-x-2 mb-2">
+                        <i class="fas fa-info-circle text-primary"></i>
+                        <span class="text-sm font-medium">Free Tier Limits</span>
+                    </div>
+                    <ul class="text-sm text-muted-foreground space-y-1">
+                        <li>• Up to 3 repositories</li>
+                        <li>• 100 AI queries per month</li>
+                        <li>• Basic commit summaries</li>
+                    </ul>
+                </div>
+                
+                <div class="flex space-x-3">
+                    <button onclick="connectRepository()" class="flex-1 bg-primary text-primary-foreground py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors">
+                        <i class="fas fa-link mr-2"></i>
+                        Connect Repository
+                    </button>
+                    <button onclick="hideModals()" class="px-6 py-3 border border-border rounded-lg hover:bg-accent transition-colors">
+                        Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- @END_COMPONENT: ConnectRepoModal -->
+
+    <!-- Repository Analysis Modal -->
+    <!-- @COMPONENT: RepoAnalysisModal -->
+    <div id="repo-analysis-modal" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-card border border-border rounded-lg max-w-4xl w-full max-h-[90vh] overflow-hidden">
+            <div class="flex items-center justify-between p-6 border-b border-border">
+                <div class="flex items-center space-x-3">
+                    <i class="fab fa-react text-blue-400 text-xl"></i>
+                    <h2 class="text-xl font-bold" data-bind="selectedRepo.name">react-dashboard</h2>
+                </div>
+                <button onclick="hideModals()" class="text-muted-foreground hover:text-foreground">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="flex h-[600px]">
+                <!-- Sidebar with file tree -->
+                <div class="w-1/3 border-r border-border p-4 overflow-y-auto">
+                    <h3 class="font-semibold mb-4">File Structure</h3>
+                    <div class="space-y-1 text-sm font-mono">
+                        <!-- @MAP: fileTree.map(file => ( -->
+                        <div class="flex items-center space-x-2 py-1 px-2 rounded hover:bg-accent cursor-pointer">
+                            <i class="fas fa-folder text-yellow-400 text-xs"></i>
+                            <span data-bind="file.name">src/</span>
+                        </div>
+                        <div class="ml-4 space-y-1">
+                            <div class="flex items-center space-x-2 py-1 px-2 rounded hover:bg-accent cursor-pointer">
+                                <i class="fas fa-folder text-yellow-400 text-xs"></i>
+                                <span data-bind="file.name">components/</span>
+                            </div>
+                            <div class="ml-4 space-y-1">
+                                <div class="flex items-center space-x-2 py-1 px-2 rounded hover:bg-accent cursor-pointer">
+                                    <i class="fab fa-react text-blue-400 text-xs"></i>
+                                    <span data-bind="file.name">Dashboard.tsx</span>
+                                </div>
+                                <div class="flex items-center space-x-2 py-1 px-2 rounded hover:bg-accent cursor-pointer">
+                                    <i class="fab fa-react text-blue-400 text-xs"></i>
+                                    <span data-bind="file.name">Sidebar.tsx</span>
+                                </div>
+                                <div class="flex items-center space-x-2 py-1 px-2 rounded hover:bg-accent cursor-pointer">
+                                    <i class="fab fa-react text-blue-400 text-xs"></i>
+                                    <span data-bind="file.name">Header.tsx</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-2 py-1 px-2 rounded hover:bg-accent cursor-pointer">
+                                <i class="fas fa-folder text-yellow-400 text-xs"></i>
+                                <span data-bind="file.name">utils/</span>
+                            </div>
+                            <div class="flex items-center space-x-2 py-1 px-2 rounded hover:bg-accent cursor-pointer">
+                                <i class="fas fa-folder text-yellow-400 text-xs"></i>
+                                <span data-bind="file.name">hooks/</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-2 py-1 px-2 rounded hover:bg-accent cursor-pointer">
+                            <i class="fas fa-file-code text-green-400 text-xs"></i>
+                            <span data-bind="file.name">package.json</span>
+                        </div>
+                        <div class="flex items-center space-x-2 py-1 px-2 rounded hover:bg-accent cursor-pointer">
+                            <i class="fas fa-file text-gray-400 text-xs"></i>
+                            <span data-bind="file.name">README.md</span>
+                        </div>
+                        <!-- @END_MAP )) -->
+                    </div>
+                </div>
+                
+                <!-- Main content area -->
+                <div class="flex-1 p-6 overflow-y-auto">
+                    <div class="tabs mb-6">
+                        <div class="flex space-x-4 border-b border-border">
+                            <button onclick="showTab('overview')" class="tab-button active px-4 py-2 border-b-2 border-primary text-primary font-medium">
+                                Overview
+                            </button>
+                            <button onclick="showTab('commits')" class="tab-button px-4 py-2 border-b-2 border-transparent text-muted-foreground hover:text-foreground">
+                                Commits
+                            </button>
+                            <button onclick="showTab('insights')" class="tab-button px-4 py-2 border-b-2 border-transparent text-muted-foreground hover:text-foreground">
+                                AI Insights
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Overview Tab -->
+                    <div id="overview-tab" class="tab-content">
+                        <div class="space-y-6">
+                            <div>
+                                <h4 class="font-semibold mb-3">Repository Summary</h4>
+                                <div class="bg-muted p-4 rounded-lg">
+                                    <p class="text-sm leading-relaxed" data-bind="repo.aiSummary">
+                                        This React dashboard project implements a modern admin interface using TypeScript, 
+                                        Tailwind CSS, and various React hooks. The architecture follows component-based design 
+                                        patterns with reusable UI elements and proper state management.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="bg-muted p-4 rounded-lg">
+                                    <p class="text-sm text-muted-foreground">Primary Language</p>
+                                    <p class="font-medium" data-bind="repo.primaryLanguage">TypeScript</p>
+                                </div>
+                                <div class="bg-muted p-4 rounded-lg">
+                                    <p class="text-sm text-muted-foreground">Framework</p>
+                                    <p class="font-medium" data-bind="repo.framework">React 18</p>
+                                </div>
+                                <div class="bg-muted p-4 rounded-lg">
+                                    <p class="text-sm text-muted-foreground">Build Tool</p>
+                                    <p class="font-medium" data-bind="repo.buildTool">Vite</p>
+                                </div>
+                                <div class="bg-muted p-4 rounded-lg">
+                                    <p class="text-sm text-muted-foreground">Dependencies</p>
+                                    <p class="font-medium" data-bind="repo.dependencies">42</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Commits Tab -->
+                    <div id="commits-tab" class="tab-content hidden">
+                        <div class="space-y-4">
+                            <!-- @MAP: commits.map(commit => ( -->
+                            <div class="border border-border rounded-lg p-4">
+                                <div class="flex items-start space-x-3">
+                                    <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <span class="text-xs font-mono text-primary" data-bind="commit.shortHash">a7b2c</span>
+                                    </div>
+                                    <div class="flex-1">
+                                        <p class="font-medium mb-1" data-bind="commit.message">Add authentication middleware and JWT token validation</p>
+                                        <div class="bg-muted p-3 rounded text-sm">
+                                            <p class="text-muted-foreground mb-2">AI Summary:</p>
+                                            <p data-bind="commit.aiSummary">
+                                                This commit introduces JWT-based authentication middleware for the API service. 
+                                                It adds token validation, user context injection, and error handling for unauthorized requests.
+                                            </p>
+                                        </div>
+                                        <div class="flex items-center space-x-4 mt-3 text-xs text-muted-foreground">
+                                            <span data-bind="commit.author">john.doe</span>
+                                            <span data-bind="commit.timestamp">2 days ago</span>
+                                            <span class="text-green-400">+23 -5</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="border border-border rounded-lg p-4">
+                                <div class="flex items-start space-x-3">
+                                    <div class="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <span class="text-xs font-mono text-primary" data-bind="commit.shortHash">f9e1d</span>
+                                    </div>
+                                    <div class="flex-1">
+                                        <p class="font-medium mb-1" data-bind="commit.message">Refactor dashboard components and improve responsive design</p>
+                                        <div class="bg-muted p-3 rounded text-sm">
+                                            <p class="text-muted-foreground mb-2">AI Summary:</p>
+                                            <p data-bind="commit.aiSummary">
+                                                Major refactoring of the dashboard components to improve code organization and responsive behavior. 
+                                                Updates include better mobile support and cleaner component architecture.
+                                            </p>
+                                        </div>
+                                        <div class="flex items-center space-x-4 mt-3 text-xs text-muted-foreground">
+                                            <span data-bind="commit.author">jane.smith</span>
+                                            <span data-bind="commit.timestamp">3 days ago</span>
+                                            <span class="text-green-400">+67 -12</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- @END_MAP )) -->
+                        </div>
+                    </div>
+                    
+                    <!-- AI Insights Tab -->
+                    <div id="insights-tab" class="tab-content hidden">
+                        <div class="space-y-6">
+                            <div class="bg-muted p-4 rounded-lg">
+                                <h4 class="font-semibold mb-3 flex items-center">
+                                    <i class="fas fa-lightbulb text-yellow-400 mr-2"></i>
+                                    Key Insights
+                                </h4>
+                                <ul class="space-y-2 text-sm">
+                                    <li data-bind="insight.text">• High usage of React hooks pattern throughout the codebase</li>
+                                    <li data-bind="insight.text">• Well-structured component hierarchy with clear separation of concerns</li>
+                                    <li data-bind="insight.text">• Consistent TypeScript usage with proper type definitions</li>
+                                    <li data-bind="insight.text">• Modern CSS-in-JS approach with Tailwind integration</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="bg-muted p-4 rounded-lg">
+                                <h4 class="font-semibold mb-3 flex items-center">
+                                    <i class="fas fa-exclamation-triangle text-yellow-400 mr-2"></i>
+                                    Recommendations
+                                </h4>
+                                <ul class="space-y-2 text-sm">
+                                    <li data-bind="recommendation.text">• Consider adding error boundaries for better error handling</li>
+                                    <li data-bind="recommendation.text">• Implement lazy loading for improved performance</li>
+                                    <li data-bind="recommendation.text">• Add unit tests for critical components</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- @END_COMPONENT: RepoAnalysisModal -->
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-overlay" class="fixed inset-0 bg-black/50 z-20 hidden md:hidden" onclick="toggleSidebar()"></div>
+
+    <script>
+        // TODO: Replace with proper state management and API integration
+        (function() {
+            // UI State Management
+            let currentView = 'landing';
+            let sidebarOpen = false;
+
+            // Navigation Functions
+            window.showLogin = function() {
+                document.getElementById('auth-modal').classList.remove('hidden');
+            };
+
+            window.showSignup = function() {
+                document.getElementById('auth-modal').classList.remove('hidden');
+            };
+
+            window.hideModals = function() {
+                document.querySelectorAll('[id$="-modal"]').forEach(modal => {
+                    modal.classList.add('hidden');
+                });
+            };
+
+            window.showDashboard = function() {
+                document.getElementById('landing-page').classList.add('hidden');
+                document.getElementById('dashboard').classList.remove('hidden');
+                currentView = 'dashboard';
+            };
+
+            window.showConnectRepo = function() {
+                document.getElementById('connect-repo-modal').classList.remove('hidden');
+            };
+
+            window.connectRepository = function() {
+                // TODO: Implement GitHub OAuth and repository connection
+                hideModals();
+                // Show success notification
+                console.log('Repository connection initiated');
+            };
+
+            window.toggleSidebar = function() {
+                const sidebar = document.getElementById('sidebar');
+                const overlay = document.getElementById('mobile-overlay');
+                
+                if (sidebarOpen) {
+                    sidebar.classList.add('sidebar-hidden');
+                    overlay.classList.add('hidden');
+                } else {
+                    sidebar.classList.remove('sidebar-hidden');
+                    overlay.classList.remove('hidden');
+                }
+                sidebarOpen = !sidebarOpen;
+            };
+
+            window.showDashboardSection = function(section) {
+                // Hide all sections
+                document.querySelectorAll('.dashboard-section').forEach(el => {
+                    el.classList.add('hidden');
+                });
+                
+                // Show selected section
+                document.getElementById(section + '-section').classList.remove('hidden');
+                
+                // Update active nav
+                document.querySelectorAll('#sidebar nav a').forEach(link => {
+                    link.classList.remove('bg-accent', 'text-foreground');
+                    link.classList.add('text-muted-foreground');
+                });
+                event.target.classList.add('bg-accent', 'text-foreground');
+                event.target.classList.remove('text-muted-foreground');
+            };
+
+            window.selectProject = function(projectId) {
+                // TODO: Implement project selection and data loading
+                console.log('Selected project:', projectId);
+            };
+
+            window.analyzeRepo = function(repoId) {
+                document.getElementById('repo-analysis-modal').classList.remove('hidden');
+                // TODO: Load repository analysis data
+            };
+
+            window.askQuestion = function(repoId) {
+                showDashboardSection('queries');
+                hideModals();
+                // TODO: Focus on query input
+            };
+
+            window.viewCommits = function(repoId) {
+                document.getElementById('repo-analysis-modal').classList.remove('hidden');
+                showTab('commits');
+            };
+
+            window.viewFiles = function(repoId) {
+                document.getElementById('repo-analysis-modal').classList.remove('hidden');
+                showTab('overview');
+            };
+
+            window.showTab = function(tabName) {
+                // Hide all tab contents
+                document.querySelectorAll('.tab-content').forEach(tab => {
+                    tab.classList.add('hidden');
+                });
+                
+                // Show selected tab
+                document.getElementById(tabName + '-tab').classList.remove('hidden');
+                
+                // Update active tab button
+                document.querySelectorAll('.tab-button').forEach(btn => {
+                    btn.classList.remove('active', 'border-primary', 'text-primary');
+                    btn.classList.add('border-transparent', 'text-muted-foreground');
+                });
+                event.target.classList.add('active', 'border-primary', 'text-primary');
+                event.target.classList.remove('border-transparent', 'text-muted-foreground');
+            };
+
+            window.showNewQuery = function() {
+                // TODO: Focus on query input and clear previous results
+                console.log('New query initiated');
+            };
+
+            window.showSettings = function() {
+                // TODO: Implement settings modal
+                console.log('Settings opened');
+            };
+
+            window.logout = function() {
+                // TODO: Implement logout functionality
+                document.getElementById('dashboard').classList.add('hidden');
+                document.getElementById('landing-page').classList.remove('hidden');
+                currentView = 'landing';
+            };
+
+            // Demo functionality - simulate login for demonstration
+            window.simulateLogin = function() {
+                setTimeout(() => {
+                    hideModals();
+                    showDashboard();
+                }, 1000);
+            };
+
+            // Initialize
+            document.addEventListener('DOMContentLoaded', function() {
+                // Set up responsive behavior
+                if (window.innerWidth < 768) {
+                    document.getElementById('sidebar').classList.add('sidebar-hidden');
+                }
+                
+                // Auto-login for demo purposes (remove in production)
+                setTimeout(() => {
+                    if (window.location.hash === '#demo') {
+                        showDashboard();
+                    }
+                }, 500);
+            });
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+
+13ca3ed39d9883befd4e918ccdf9734e59cff2b0	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/assert/-/assert-1.4.1.tgz","integrity":null,"time":1743498225457,"size":"0","metadata":{"time":1743498225457,"url":"http://registry.npmjs.org/assert/-/assert-1.4.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:44 GMT","location":"https://registry.npmjs.org/assert/-/assert-1.4.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

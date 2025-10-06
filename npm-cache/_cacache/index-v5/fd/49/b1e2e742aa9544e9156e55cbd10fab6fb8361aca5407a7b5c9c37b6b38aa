@@ -1,0 +1,2 @@
+
+4f54767ef7ae890846c13c03b89bcdb72ec3a101	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@types/react-dom/-/react-dom-18.2.7.tgz","integrity":null,"time":1743145750006,"size":"0","metadata":{"time":1743145750006,"url":"http://registry.npmjs.org/@types/react-dom/-/react-dom-18.2.7.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 07:09:08 GMT","location":"https://registry.npmjs.org/@types/react-dom/-/react-dom-18.2.7.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

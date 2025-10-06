@@ -1,0 +1,2 @@
+
+c1000a278120fd08b4525147d098133b36ad1128	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-windows/-/is-windows-1.0.2.tgz","integrity":null,"time":1743498210674,"size":"0","metadata":{"time":1743498210674,"url":"http://registry.npmjs.org/is-windows/-/is-windows-1.0.2.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:30 GMT","location":"https://registry.npmjs.org/is-windows/-/is-windows-1.0.2.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

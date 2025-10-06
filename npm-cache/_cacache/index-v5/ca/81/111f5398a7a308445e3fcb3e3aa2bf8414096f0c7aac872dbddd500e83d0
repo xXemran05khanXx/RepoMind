@@ -1,0 +1,2 @@
+
+2efaf70687b30fa9055aa06877a2f1fa063dded9	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/sha.js/-/sha.js-2.4.11.tgz","integrity":null,"time":1743498197027,"size":"0","metadata":{"time":1743498197027,"url":"http://registry.npmjs.org/sha.js/-/sha.js-2.4.11.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:16 GMT","location":"https://registry.npmjs.org/sha.js/-/sha.js-2.4.11.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

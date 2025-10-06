@@ -1,0 +1,2 @@
+
+6ded51f7fa8bef1c1e808c0d0b9e99a373f99c89	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/next-tick/-/next-tick-1.0.0.tgz","integrity":null,"time":1743498206563,"size":"0","metadata":{"time":1743498206563,"url":"http://registry.npmjs.org/next-tick/-/next-tick-1.0.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:26 GMT","location":"https://registry.npmjs.org/next-tick/-/next-tick-1.0.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+31012b5524f495025c06dce944ddc474fb240fc8	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/p-map/-/p-map-2.1.0.tgz","integrity":null,"time":1743498247443,"size":"0","metadata":{"time":1743498247443,"url":"http://registry.npmjs.org/p-map/-/p-map-2.1.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:04:06 GMT","location":"https://registry.npmjs.org/p-map/-/p-map-2.1.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

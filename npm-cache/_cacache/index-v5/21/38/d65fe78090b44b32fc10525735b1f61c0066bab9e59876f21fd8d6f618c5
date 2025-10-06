@@ -1,0 +1,2 @@
+
+5c76806bd91ec26322e28eb0d83c0c89a859ce2b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@rollup%2frollup-openharmony-arm64","integrity":null,"time":1756923258424,"size":"0","metadata":{"time":1756923258424,"url":"http://registry.npmjs.org/@rollup%2frollup-openharmony-arm64","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Wed, 03 Sep 2025 18:14:17 GMT","location":"https://registry.npmjs.org/@rollup%2Frollup-openharmony-arm64","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

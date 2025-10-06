@@ -1,0 +1,2 @@
+
+35c733f06b4d6acd83409fc38fe9ff7a4c2ff223	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/mississippi","integrity":null,"time":1743498147042,"size":"0","metadata":{"time":1743498147041,"url":"http://registry.npmjs.org/mississippi","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:26 GMT","location":"https://registry.npmjs.org/mississippi","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

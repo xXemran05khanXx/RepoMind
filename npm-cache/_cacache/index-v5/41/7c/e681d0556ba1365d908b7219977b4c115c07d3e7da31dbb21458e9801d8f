@@ -1,0 +1,2 @@
+
+34dc87d6be4bd105a3c36a02c1ad13697b499cc7	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/read-pkg/-/read-pkg-3.0.0.tgz","integrity":null,"time":1743498199339,"size":"0","metadata":{"time":1743498199339,"url":"http://registry.npmjs.org/read-pkg/-/read-pkg-3.0.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:18 GMT","location":"https://registry.npmjs.org/read-pkg/-/read-pkg-3.0.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

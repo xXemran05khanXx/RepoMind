@@ -1,0 +1,2 @@
+
+d75c7da5a1f3b66b8a2d55bc29c3acc27e45d580	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/lilconfig/-/lilconfig-2.1.0.tgz","integrity":null,"time":1743145743950,"size":"0","metadata":{"time":1743145743949,"url":"http://registry.npmjs.org/lilconfig/-/lilconfig-2.1.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 07:09:02 GMT","location":"https://registry.npmjs.org/lilconfig/-/lilconfig-2.1.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

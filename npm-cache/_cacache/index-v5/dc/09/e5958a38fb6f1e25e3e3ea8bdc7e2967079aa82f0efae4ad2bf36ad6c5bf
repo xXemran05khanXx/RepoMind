@@ -1,0 +1,2 @@
+
+746f14d46469e8815b78b33ad37b0da989353f42	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/xtend","integrity":null,"time":1743498182682,"size":"0","metadata":{"time":1743498182682,"url":"http://registry.npmjs.org/xtend","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:02 GMT","location":"https://registry.npmjs.org/xtend","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

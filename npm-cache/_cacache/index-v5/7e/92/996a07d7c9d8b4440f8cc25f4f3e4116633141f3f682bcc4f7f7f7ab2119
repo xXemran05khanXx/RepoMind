@@ -1,0 +1,2 @@
+
+f57bfd1e68e29e52a9a1c0239400238b0ce396db	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/obuf","integrity":null,"time":1743498150051,"size":"0","metadata":{"time":1743498150051,"url":"http://registry.npmjs.org/obuf","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:29 GMT","location":"https://registry.npmjs.org/obuf","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

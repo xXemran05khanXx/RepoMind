@@ -1,0 +1,2 @@
+
+054c888268a5f4363ae85bb93fdb3f7f00d94572	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@types/luxon/-/luxon-3.3.8.tgz","integrity":null,"time":1743504636717,"size":"0","metadata":{"time":1743504636717,"url":"http://registry.npmjs.org/@types/luxon/-/luxon-3.3.8.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 10:50:36 GMT","location":"https://registry.npmjs.org/@types/luxon/-/luxon-3.3.8.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

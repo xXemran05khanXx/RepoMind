@@ -1,0 +1,2 @@
+
+ba3f6c0bf2d8d12306bf1a25a72f0c9bf6ca331b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-plain-object","integrity":null,"time":1743498135635,"size":"0","metadata":{"time":1743498135634,"url":"http://registry.npmjs.org/is-plain-object","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:15 GMT","location":"https://registry.npmjs.org/is-plain-object","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+de336cab3897a754550a03ce205da84c660af43f	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/node-int64/-/node-int64-0.4.0.tgz","integrity":null,"time":1743498206366,"size":"0","metadata":{"time":1743498206366,"url":"http://registry.npmjs.org/node-int64/-/node-int64-0.4.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:26 GMT","location":"https://registry.npmjs.org/node-int64/-/node-int64-0.4.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

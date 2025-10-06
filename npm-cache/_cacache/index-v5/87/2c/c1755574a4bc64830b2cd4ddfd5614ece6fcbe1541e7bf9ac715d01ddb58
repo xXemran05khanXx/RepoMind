@@ -1,0 +1,2 @@
+
+30746b051e5d78e907add28a8eec4bd8ac9a017d	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/bcrypt/-/bcrypt-5.1.1.tgz","integrity":null,"time":1743397217166,"size":"0","metadata":{"time":1743397217166,"url":"http://registry.npmjs.org/bcrypt/-/bcrypt-5.1.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 31 Mar 2025 05:00:17 GMT","location":"https://registry.npmjs.org/bcrypt/-/bcrypt-5.1.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

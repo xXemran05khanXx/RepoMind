@@ -1,0 +1,2 @@
+
+7a151e105a5713e7ae4adccf9c5dad37506df116	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/jest/-/jest-29.7.0.tgz","integrity":null,"time":1743397083288,"size":"0","metadata":{"time":1743397083288,"url":"http://registry.npmjs.org/jest/-/jest-29.7.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 31 Mar 2025 04:58:03 GMT","location":"https://registry.npmjs.org/jest/-/jest-29.7.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

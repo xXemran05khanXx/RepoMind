@@ -1,0 +1,2 @@
+
+c41cfa712ca532b257a332e339a522cdb4720bc0	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/mongodb","integrity":null,"time":1743506726621,"size":"0","metadata":{"time":1743506726621,"url":"http://registry.npmjs.org/mongodb","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 11:25:26 GMT","location":"https://registry.npmjs.org/mongodb","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

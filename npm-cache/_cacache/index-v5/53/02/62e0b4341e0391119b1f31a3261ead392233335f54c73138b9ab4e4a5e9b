@@ -1,0 +1,2 @@
+
+bdf3075b5c4d7cd2236f4ce60b590cdf71f55188	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/dashdash/-/dashdash-1.14.1.tgz","integrity":null,"time":1743498219489,"size":"0","metadata":{"time":1743498219489,"url":"http://registry.npmjs.org/dashdash/-/dashdash-1.14.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:38 GMT","location":"https://registry.npmjs.org/dashdash/-/dashdash-1.14.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

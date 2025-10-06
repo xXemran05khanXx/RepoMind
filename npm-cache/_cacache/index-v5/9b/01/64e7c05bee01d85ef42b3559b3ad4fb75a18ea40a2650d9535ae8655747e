@@ -1,0 +1,2 @@
+
+c516a4f5f577cb8909a157140e1c49c6c824282b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/d3-interpolate/-/d3-interpolate-3.0.1.tgz","integrity":null,"time":1743351861072,"size":"0","metadata":{"time":1743351861072,"url":"http://registry.npmjs.org/d3-interpolate/-/d3-interpolate-3.0.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 30 Mar 2025 16:24:21 GMT","location":"https://registry.npmjs.org/d3-interpolate/-/d3-interpolate-3.0.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

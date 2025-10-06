@@ -1,0 +1,2 @@
+
+de38a878187108e920d1a3eea7b9f9783edf912b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.10.tgz","integrity":null,"time":1743504707606,"size":"0","metadata":{"time":1743504707606,"url":"http://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.10.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 10:51:46 GMT","location":"https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.10.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

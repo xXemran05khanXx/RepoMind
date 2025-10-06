@@ -1,0 +1,2 @@
+
+24e5254bb9c6b1bfd985384b1d96a1ec4fa9212e	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/lazy-cache/-/lazy-cache-1.0.4.tgz","integrity":null,"time":1743498208521,"size":"0","metadata":{"time":1743498208520,"url":"http://registry.npmjs.org/lazy-cache/-/lazy-cache-1.0.4.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:27 GMT","location":"https://registry.npmjs.org/lazy-cache/-/lazy-cache-1.0.4.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

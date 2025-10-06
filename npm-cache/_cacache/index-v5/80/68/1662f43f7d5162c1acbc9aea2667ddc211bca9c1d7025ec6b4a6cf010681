@@ -1,0 +1,2 @@
+
+f59a067b19555bb657d2f7ceba79196ea9a3488c	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/eslint-plugin-n/-/eslint-plugin-n-16.0.1.tgz","integrity":null,"time":1743145746877,"size":"0","metadata":{"time":1743145746876,"url":"http://registry.npmjs.org/eslint-plugin-n/-/eslint-plugin-n-16.0.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 07:09:04 GMT","location":"https://registry.npmjs.org/eslint-plugin-n/-/eslint-plugin-n-16.0.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

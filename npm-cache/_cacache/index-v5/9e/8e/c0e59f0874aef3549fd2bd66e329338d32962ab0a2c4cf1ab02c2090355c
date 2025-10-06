@@ -1,0 +1,2 @@
+
+dcfa4d3fd825c8f8d155329b94bba8f83c8a3118	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/regexpp/-/regexpp-2.0.1.tgz","integrity":null,"time":1743498246842,"size":"0","metadata":{"time":1743498246842,"url":"http://registry.npmjs.org/regexpp/-/regexpp-2.0.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:04:06 GMT","location":"https://registry.npmjs.org/regexpp/-/regexpp-2.0.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

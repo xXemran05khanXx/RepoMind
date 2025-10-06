@@ -1,0 +1,2 @@
+
+42a038ff441d55dcd31ae20dc34a8aabf80e203b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/sha.js","integrity":null,"time":1743498169564,"size":"0","metadata":{"time":1743498169564,"url":"http://registry.npmjs.org/sha.js","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:49 GMT","location":"https://registry.npmjs.org/sha.js","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

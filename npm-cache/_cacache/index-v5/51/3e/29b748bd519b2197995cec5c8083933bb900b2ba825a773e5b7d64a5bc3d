@@ -1,0 +1,2 @@
+
+8e5fa0b710a0fede16cbe7989565a24a4141a277	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/redent","integrity":null,"time":1743498164973,"size":"0","metadata":{"time":1743498164973,"url":"http://registry.npmjs.org/redent","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:44 GMT","location":"https://registry.npmjs.org/redent","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+06571794099e677f02ae4a0e8b0b0dc4e0a1ef77	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/isomorphic-fetch","integrity":null,"time":1743498136652,"size":"0","metadata":{"time":1743498136651,"url":"http://registry.npmjs.org/isomorphic-fetch","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:16 GMT","location":"https://registry.npmjs.org/isomorphic-fetch","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+3eef6b4fff7229a236dbc7f05621bfd47903201d	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@babel%2fhelper-string-parser","integrity":null,"time":1743507303212,"size":"0","metadata":{"time":1743507303212,"url":"http://registry.npmjs.org/@babel%2fhelper-string-parser","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 11:35:03 GMT","location":"https://registry.npmjs.org/@babel%2Fhelper-string-parser","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

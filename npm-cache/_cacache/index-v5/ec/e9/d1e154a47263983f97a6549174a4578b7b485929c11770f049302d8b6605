@@ -1,0 +1,2 @@
+
+9bb8ab09db0a6e81c09b72ebe7b7da11e1972807	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-9.0.1.tgz","integrity":null,"time":1743504636544,"size":"0","metadata":{"time":1743504636543,"url":"http://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-9.0.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 10:50:36 GMT","location":"https://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-9.0.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

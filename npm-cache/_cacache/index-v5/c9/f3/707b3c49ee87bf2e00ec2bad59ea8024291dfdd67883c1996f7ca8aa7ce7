@@ -1,0 +1,2 @@
+
+4e340e2cff9dd2e316221519fc16ef6e84607fb4	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/ip-regex","integrity":null,"time":1743498133552,"size":"0","metadata":{"time":1743498133552,"url":"http://registry.npmjs.org/ip-regex","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:13 GMT","location":"https://registry.npmjs.org/ip-regex","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

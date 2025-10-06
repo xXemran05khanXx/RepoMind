@@ -1,0 +1,2 @@
+
+73014e55d00ff461c3002f1356d06407640f06c6	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/babylon","integrity":null,"time":1743498102773,"size":"0","metadata":{"time":1743498102773,"url":"http://registry.npmjs.org/babylon","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:42 GMT","location":"https://registry.npmjs.org/babylon","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

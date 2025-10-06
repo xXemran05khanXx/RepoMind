@@ -1,0 +1,2 @@
+
+08b1377d0cf61bdb7ccb1c230b781b1ab87acbe6	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/duplexer","integrity":null,"time":1743498116457,"size":"0","metadata":{"time":1743498116457,"url":"http://registry.npmjs.org/duplexer","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:56 GMT","location":"https://registry.npmjs.org/duplexer","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

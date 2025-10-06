@@ -1,0 +1,2 @@
+
+daf89679f8cabd6f0eb58aef35fb0d5e2029faf3	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/utf-8-validate","integrity":null,"time":1743506730863,"size":"0","metadata":{"time":1743506730863,"url":"http://registry.npmjs.org/utf-8-validate","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 11:25:30 GMT","location":"https://registry.npmjs.org/utf-8-validate","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

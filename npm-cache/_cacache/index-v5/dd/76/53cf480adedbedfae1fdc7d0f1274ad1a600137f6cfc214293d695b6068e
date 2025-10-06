@@ -1,0 +1,2 @@
+
+226ffdfd07ae482841cb2167db90be55a15898c9	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@types%2fbcryptjs","integrity":null,"time":1743352139828,"size":"0","metadata":{"time":1743352139828,"url":"http://registry.npmjs.org/@types%2fbcryptjs","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 30 Mar 2025 16:29:00 GMT","location":"https://registry.npmjs.org/@types%2Fbcryptjs","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

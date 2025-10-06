@@ -1,0 +1,2 @@
+
+e42ca5f40413f9f9b3379cd83d03b01ee89ff9c5	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/utila","integrity":null,"time":1743498177503,"size":"0","metadata":{"time":1743498177503,"url":"http://registry.npmjs.org/utila","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:57 GMT","location":"https://registry.npmjs.org/utila","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

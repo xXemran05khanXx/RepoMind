@@ -1,0 +1,2 @@
+
+d60ec65178159790099a9f77c1f3ee475acda548	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@tsconfig%2fnode14","integrity":null,"time":1743352143667,"size":"0","metadata":{"time":1743352143667,"url":"http://registry.npmjs.org/@tsconfig%2fnode14","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sun, 30 Mar 2025 16:29:04 GMT","location":"https://registry.npmjs.org/@tsconfig%2Fnode14","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+8efb8ba8cd6535216b90ca43d91c094d14869e3a	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@firebase/auth/-/auth-0.14.9.tgz","integrity":null,"time":1743498231445,"size":"0","metadata":{"time":1743498231442,"url":"http://registry.npmjs.org/@firebase/auth/-/auth-0.14.9.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:50 GMT","location":"https://registry.npmjs.org/@firebase/auth/-/auth-0.14.9.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

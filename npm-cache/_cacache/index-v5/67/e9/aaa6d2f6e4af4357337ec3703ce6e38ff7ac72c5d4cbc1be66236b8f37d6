@@ -1,0 +1,2 @@
+
+8608207ba4b8e6084c90a2ddf4d90d1c1c94a4db	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/common-tags","integrity":null,"time":1743498108431,"size":"0","metadata":{"time":1743498108431,"url":"http://registry.npmjs.org/common-tags","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:48 GMT","location":"https://registry.npmjs.org/common-tags","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

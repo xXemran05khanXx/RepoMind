@@ -1,0 +1,2 @@
+
+cf4fb34d51c0dc3779c50bebeccf98efa84d36a7	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@firebase%2fapp","integrity":null,"time":1743498071662,"size":"0","metadata":{"time":1743498071662,"url":"http://registry.npmjs.org/@firebase%2fapp","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:11 GMT","location":"https://registry.npmjs.org/@firebase%2Fapp","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

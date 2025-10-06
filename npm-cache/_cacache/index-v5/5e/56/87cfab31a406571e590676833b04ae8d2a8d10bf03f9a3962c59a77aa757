@@ -1,0 +1,2 @@
+
+76365723b3b21d89ededc0152a98bf28a139bc0a	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/dom-serializer","integrity":null,"time":1743498115652,"size":"0","metadata":{"time":1743498115652,"url":"http://registry.npmjs.org/dom-serializer","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:01:55 GMT","location":"https://registry.npmjs.org/dom-serializer","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

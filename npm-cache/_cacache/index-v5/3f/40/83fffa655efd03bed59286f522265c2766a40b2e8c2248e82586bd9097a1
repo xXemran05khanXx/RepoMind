@@ -1,0 +1,2 @@
+
+052831874c922d62b76e782baa898682035dfeb6	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/busboy","integrity":null,"time":1741446152119,"size":"0","metadata":{"time":1741446152119,"url":"http://registry.npmjs.org/busboy","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 08 Mar 2025 15:02:32 GMT","location":"https://registry.npmjs.org/busboy","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

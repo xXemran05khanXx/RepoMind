@@ -1,0 +1,2 @@
+
+231eb3c23072cfe6d8d842e736563f698bd39442	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/date-fns/-/date-fns-2.30.0.tgz","integrity":null,"time":1743504707896,"size":"0","metadata":{"time":1743504707895,"url":"http://registry.npmjs.org/date-fns/-/date-fns-2.30.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 10:51:47 GMT","location":"https://registry.npmjs.org/date-fns/-/date-fns-2.30.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+6078ee0716800e81c08807031229f56b869aa919	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/micromatch/-/micromatch-4.0.5.tgz","integrity":null,"time":1743145743512,"size":"0","metadata":{"time":1743145743512,"url":"http://registry.npmjs.org/micromatch/-/micromatch-4.0.5.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 07:09:02 GMT","location":"https://registry.npmjs.org/micromatch/-/micromatch-4.0.5.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

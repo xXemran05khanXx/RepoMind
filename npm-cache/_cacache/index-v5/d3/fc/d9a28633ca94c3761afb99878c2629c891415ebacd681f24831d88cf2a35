@@ -1,0 +1,2 @@
+
+4b13ab2d1a9543302a8e3f61c6df8d867abfe576	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-array-buffer/-/is-array-buffer-3.0.2.tgz","integrity":null,"time":1743145744594,"size":"0","metadata":{"time":1743145744594,"url":"http://registry.npmjs.org/is-array-buffer/-/is-array-buffer-3.0.2.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 07:09:03 GMT","location":"https://registry.npmjs.org/is-array-buffer/-/is-array-buffer-3.0.2.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

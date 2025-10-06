@@ -1,0 +1,2 @@
+
+85c4b3047070f8c9dbca0590bb8b44bdcc2cb437	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.3.tgz","integrity":null,"time":1743145749972,"size":"0","metadata":{"time":1743145749971,"url":"http://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.3.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 07:09:08 GMT","location":"https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.3.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

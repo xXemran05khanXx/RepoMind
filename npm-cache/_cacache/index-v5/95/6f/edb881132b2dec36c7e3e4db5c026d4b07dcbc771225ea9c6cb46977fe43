@@ -1,0 +1,2 @@
+
+ef67d0fd8ce1d6e50bc971f282413ff6bdff0701	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@hapi/joi/-/joi-15.1.1.tgz","integrity":null,"time":1743498230372,"size":"0","metadata":{"time":1743498230372,"url":"http://registry.npmjs.org/@hapi/joi/-/joi-15.1.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:03:49 GMT","location":"https://registry.npmjs.org/@hapi/joi/-/joi-15.1.1.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

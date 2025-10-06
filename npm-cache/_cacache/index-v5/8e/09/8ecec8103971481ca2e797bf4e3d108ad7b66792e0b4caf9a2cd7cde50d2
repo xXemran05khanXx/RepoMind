@@ -1,0 +1,2 @@
+
+e3972270e1aad7473260b67c4cedc4054c6c34b0	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/wide-align","integrity":null,"time":1743397216151,"size":"0","metadata":{"time":1743397216151,"url":"http://registry.npmjs.org/wide-align","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 31 Mar 2025 05:00:16 GMT","location":"https://registry.npmjs.org/wide-align","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

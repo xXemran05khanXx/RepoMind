@@ -1,0 +1,2 @@
+
+c33d3a4166821e10b4d2f84f52fe895bcad54f31	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/https-proxy-agent","integrity":null,"time":1743397215150,"size":"0","metadata":{"time":1743397215150,"url":"http://registry.npmjs.org/https-proxy-agent","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 31 Mar 2025 05:00:15 GMT","location":"https://registry.npmjs.org/https-proxy-agent","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

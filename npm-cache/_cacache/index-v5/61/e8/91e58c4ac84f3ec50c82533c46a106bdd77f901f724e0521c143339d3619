@@ -1,0 +1,2 @@
+
+f37907f5589a97735e8ef6328ea19786e8a344ed	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/har-schema","integrity":null,"time":1743498129155,"size":"0","metadata":{"time":1743498129155,"url":"http://registry.npmjs.org/har-schema","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:08 GMT","location":"https://registry.npmjs.org/har-schema","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

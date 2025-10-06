@@ -1,0 +1,2 @@
+
+4d0609b8de77fd9efbcb11649c4a07ca623b3bfc	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@mapbox%2fnode-pre-gyp","integrity":null,"time":1743397214600,"size":"0","metadata":{"time":1743397214599,"url":"http://registry.npmjs.org/@mapbox%2fnode-pre-gyp","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Mon, 31 Mar 2025 05:00:15 GMT","location":"https://registry.npmjs.org/@mapbox%2Fnode-pre-gyp","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

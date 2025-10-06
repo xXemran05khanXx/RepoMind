@@ -1,0 +1,2 @@
+
+930812d96ffb6c5f3721680d1458b1b93e9fb773	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/forever-agent","integrity":null,"time":1743498126519,"size":"0","metadata":{"time":1743498126519,"url":"http://registry.npmjs.org/forever-agent","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Tue, 01 Apr 2025 09:02:06 GMT","location":"https://registry.npmjs.org/forever-agent","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

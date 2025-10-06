@@ -1,0 +1,2 @@
+
+0045bcfd0c9b6b9769552b6601fd7e23e771da7e	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/esbuild/-/esbuild-0.25.0.tgz","integrity":null,"time":1743155044707,"size":"0","metadata":{"time":1743155044706,"url":"http://registry.npmjs.org/esbuild/-/esbuild-0.25.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Fri, 28 Mar 2025 09:44:03 GMT","location":"https://registry.npmjs.org/esbuild/-/esbuild-0.25.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}
