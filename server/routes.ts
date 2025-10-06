@@ -8,8 +8,21 @@ import { vectorStore } from "./services/vectorstore";
 import { requireAuth } from "./middleware/auth";
 import type { Request, Response } from 'express';
 import { insertUserSchema, insertRepositorySchema, insertQuerySchema } from "@shared/schema";
+import { metrics, recordApiCall } from './metrics';
+import meetingsRouter from './routes/meetings';
 
 export async function registerRoutes(app: Express): Promise<Server> {
+  // Meetings feature routes
+  app.use('/api/meetings', meetingsRouter);
+  // Health & metrics endpoint
+  app.get('/api/health', (req, res) => {
+    res.json({
+      status: 'ok',
+      uptime: metrics.uptimeSeconds(),
+      metrics: metrics.snapshot(),
+      provider: process.env.AI_PROVIDER || 'openai'
+    });
+  });
   // GitHub OAuth callback
   app.get("/api/auth/github/callback", async (req: Request, res: Response) => {
     try {
@@ -440,6 +453,14 @@ export async function registerRoutes(app: Express): Promise<Server> {
         res.end();
       } catch {}
     }
+  });
+
+  // After each response record basic metrics (lightweight middleware here to avoid global reorder)
+  app.use((req, res, next) => {
+    if (req.path.startsWith('/api')) {
+      recordApiCall(req.path, res.statusCode);
+    }
+    next();
   });
 
   const httpServer = createServer(app);

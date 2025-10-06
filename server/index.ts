@@ -3,6 +3,8 @@ import session from "express-session";
 // @ts-ignore types may not expose default
 import ConnectPgSimple from "connect-pg-simple";
 import { registerRoutes } from "./routes";
+import { securityHeaders } from './middleware/security';
+import { requestLogger } from './middleware/requestLogger';
 import { setupVite, serveStatic, log } from "./vite";
 import { pool } from "./db";
 
@@ -24,8 +26,10 @@ const sessionMiddleware = session({
 });
 
 const app = express();
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(securityHeaders());
+app.use(requestLogger());
+app.use(express.json({ limit: '1mb' }));
+app.use(express.urlencoded({ extended: false, limit: '1mb' }));
 app.use(sessionMiddleware);
 
 app.use((req, res, next) => {

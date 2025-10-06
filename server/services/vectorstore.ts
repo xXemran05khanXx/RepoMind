@@ -1,4 +1,5 @@
 import { openaiService } from './openai';
+import { pineconeAvailable, PineconeVectorStore } from './vectorstore-pinecone';
 
 export interface VectorMetadata {
   path: string;
@@ -92,5 +93,29 @@ class InMemoryVectorStore implements IVectorStore {
   }
 }
 
-// Export concrete instance (later can switch to Pinecone based on env)
-export const vectorStore: IVectorStore = new InMemoryVectorStore();
+// Export concrete instance (switch to Pinecone if configured)
+let concrete: IVectorStore;
+if (pineconeAvailable()) {
+  // eslint-disable-next-line no-console
+  console.log('[vectorstore] Using Pinecone adapter');
+  const pine = new PineconeVectorStore({
+    apiKey: process.env.PINECONE_API_KEY as string,
+    index: process.env.PINECONE_INDEX as string,
+    environment: process.env.PINECONE_ENV,
+  });
+  // Adapt stub to IVectorStore shape via lightweight wrapper
+  concrete = {
+    addDocument: (id, content, metadata) => pine.addDocument(id, content, metadata).then(()=>{}),
+    search: async (query, limit = 5) => {
+      const ctx = await pine.getRelevantContext(query, '');
+      // Since stub returns empty, just fallback to no results
+      return [];
+    },
+    getRelevantContext: (query, repositoryId) => pine.getRelevantContext(query, repositoryId),
+    clearRepository: (repositoryId) => { return pine.clearRepository(repositoryId); },
+  } as IVectorStore;
+} else {
+  concrete = new InMemoryVectorStore();
+}
+
+export const vectorStore: IVectorStore = concrete;

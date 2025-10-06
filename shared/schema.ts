@@ -66,6 +66,30 @@ export const queries = pgTable("queries", {
   createdAt: timestamp("created_at").defaultNow().notNull(),
 });
 
+// Meetings (Part 4 feature)
+export const meetings = pgTable("meetings", {
+  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+  userId: varchar("user_id").notNull().references(() => users.id, { onDelete: 'cascade' }),
+  title: text("title"),
+  source: text("source"), // upload | github_issue | external
+  rawTranscript: text("raw_transcript"),
+  summary: text("summary"),
+  status: text("status").notNull().default('pending'), // pending | processing | ready | error
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+  processedAt: timestamp("processed_at"),
+});
+
+export const meetingSegments = pgTable("meeting_segments", {
+  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+  meetingId: varchar("meeting_id").notNull().references(() => meetings.id, { onDelete: 'cascade' }),
+  order: integer("order_index").notNull().default(0),
+  startTime: integer("start_time"), // seconds offset
+  endTime: integer("end_time"),
+  content: text("content"),
+  embedding: jsonb("embedding"),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
 // Relations
 export const usersRelations = relations(users, ({ many }) => ({
   repositories: many(repositories),
@@ -107,6 +131,21 @@ export const queriesRelations = relations(queries, ({ one }) => ({
   }),
 }));
 
+export const meetingsRelations = relations(meetings, ({ one, many }) => ({
+  user: one(users, {
+    fields: [meetings.userId],
+    references: [users.id],
+  }),
+  segments: many(meetingSegments),
+}));
+
+export const meetingSegmentsRelations = relations(meetingSegments, ({ one }) => ({
+  meeting: one(meetings, {
+    fields: [meetingSegments.meetingId],
+    references: [meetings.id],
+  }),
+}));
+
 // Insert schemas
 export const insertUserSchema = createInsertSchema(users).omit({
   id: true,
@@ -123,6 +162,17 @@ export const insertQuerySchema = createInsertSchema(queries).omit({
   createdAt: true,
 });
 
+export const insertMeetingSchema = createInsertSchema(meetings).omit({
+  id: true,
+  createdAt: true,
+  processedAt: true,
+});
+
+export const insertMeetingSegmentSchema = createInsertSchema(meetingSegments).omit({
+  id: true,
+  createdAt: true,
+});
+
 // Types
 export type User = typeof users.$inferSelect;
 export type InsertUser = z.infer<typeof insertUserSchema>;
@@ -132,3 +182,7 @@ export type RepositoryFile = typeof repositoryFiles.$inferSelect;
 export type Commit = typeof commits.$inferSelect;
 export type Query = typeof queries.$inferSelect;
 export type InsertQuery = z.infer<typeof insertQuerySchema>;
+export type Meeting = typeof meetings.$inferSelect;
+export type InsertMeeting = z.infer<typeof insertMeetingSchema>;
+export type MeetingSegment = typeof meetingSegments.$inferSelect;
+export type InsertMeetingSegment = z.infer<typeof insertMeetingSegmentSchema>;

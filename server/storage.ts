@@ -4,6 +4,8 @@ import {
   repositoryFiles, 
   commits, 
   queries,
+  meetings,
+  meetingSegments,
   type User, 
   type InsertUser,
   type Repository,
@@ -11,7 +13,11 @@ import {
   type RepositoryFile,
   type Commit,
   type Query,
-  type InsertQuery
+  type InsertQuery,
+  type Meeting,
+  type InsertMeeting,
+  type MeetingSegment,
+  type InsertMeetingSegment
 } from "@shared/schema";
 import { db } from "./db";
 import { eq, desc, and, sql } from "drizzle-orm";
@@ -46,6 +52,14 @@ export interface IStorage {
   getQueries(userId: string, repositoryId?: string): Promise<Query[]>;
   createQuery(query: InsertQuery): Promise<Query>;
   updateQuery(id: string, query: Partial<Query>): Promise<Query>;
+
+  // Meetings
+  createMeeting(meeting: InsertMeeting): Promise<Meeting>;
+  getMeeting(id: string): Promise<Meeting | undefined>;
+  getMeetings(userId: string): Promise<Meeting[]>;
+  updateMeeting(id: string, meeting: Partial<Meeting>): Promise<Meeting>;
+  createMeetingSegment(seg: InsertMeetingSegment): Promise<MeetingSegment>;
+  getMeetingSegments(meetingId: string): Promise<MeetingSegment[]>;
 }
 
 export class DatabaseStorage implements IStorage {
@@ -204,6 +218,30 @@ export class DatabaseStorage implements IStorage {
       .where(eq(queries.id, id))
       .returning();
     return updatedQuery;
+  }
+
+  // Meetings
+  async createMeeting(meeting: InsertMeeting): Promise<Meeting> {
+    const [m] = await db.insert(meetings).values(meeting).returning();
+    return m;
+  }
+  async getMeeting(id: string): Promise<Meeting | undefined> {
+    const [m] = await db.select().from(meetings).where(eq(meetings.id, id));
+    return m || undefined;
+  }
+  async getMeetings(userId: string): Promise<Meeting[]> {
+    return await db.select().from(meetings).where(eq(meetings.userId, userId)).orderBy(desc(meetings.createdAt));
+  }
+  async updateMeeting(id: string, meeting: Partial<Meeting>): Promise<Meeting> {
+    const [m] = await db.update(meetings).set(meeting).where(eq(meetings.id, id)).returning();
+    return m;
+  }
+  async createMeetingSegment(seg: InsertMeetingSegment): Promise<MeetingSegment> {
+    const [s] = await db.insert(meetingSegments).values(seg).returning();
+    return s;
+  }
+  async getMeetingSegments(meetingId: string): Promise<MeetingSegment[]> {
+    return await db.select().from(meetingSegments).where(eq(meetingSegments.meetingId, meetingId)).orderBy(meetingSegments.order);
   }
 }
 
